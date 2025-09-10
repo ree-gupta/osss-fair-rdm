@@ -14,7 +14,7 @@ format:
     scrollable: true
     auto-stretch: true
     smaller: false
-    css: custom.scss
+    css: custom.css
     logo: images/LMU-OSC_logo.jpg
 ---
 
