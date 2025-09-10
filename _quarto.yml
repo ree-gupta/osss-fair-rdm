@@ -1,0 +1,13 @@
+project:
+  type: website
+  output-dir: _site
+
+execute:
+  freeze: auto
+
+website:
+  title: "FAIR Research Data Management"
+  navbar:
+    left:
+      - href: slides.html
+        text: "Slides"
