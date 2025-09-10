@@ -1,0 +1,37 @@
+/* Custom styles for FAIR Research Data Management slides */
+
+.center {
+  text-align: center;
+}
+
+.smaller {
+  font-size: 0.8em !important;
+}
+
+.smallest {
+  font-size: 0.55em !important;
+}
+
+.smallestish {
+  font-size: 0.65em !important;
+}
+
+.footer {
+  font-size: 0.45em !important;
+  color: #003359;
+}
+
+.large-text {
+  font-size: 1.2em !important;
+  font-weight: bold;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.nonincremental .fragment {
+  opacity: 1;
+  visibility: visible;
+}
+
