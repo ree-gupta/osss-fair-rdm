@@ -7,7 +7,5 @@ execute:
 
 website:
   title: "FAIR Research Data Management"
-  navbar:
-    left:
-      - href: slides.html
-        text: "Slides"
+  site-url: "https://ree-gupta.github.io/osss-fair-rdm"
+  navbar: false
