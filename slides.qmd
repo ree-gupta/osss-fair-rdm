@@ -129,7 +129,7 @@ We'll use this for polls and collaborative activities throughout the workshop.
 ::::
 
 
-## How Familiar Does This Feel? {.center}
+<!-- ## How Familiar Does This Feel? {.center}
 
 ::: {.nonincremental}
 1. How did the video make you feel?
@@ -139,20 +139,20 @@ We'll use this for polls and collaborative activities throughout the workshop.
 
 . . .
 
-*Let's see the patterns in our shared experiences...*
+*Let's see the patterns in our shared experiences...* -->
 
 ::: {.notes}
 Alright, let's get a quick read of the room. Please go to the Particify link on the screen. Did you recognize yourself in at least one of those scenarios? Did it make you a tiny bit anxious about your own data practices? Okay, it looks like we're not alone in this. This shared anxiety is exactly why we're here today."
 :::
 
 
-## What Patterns Did You See? {.center}
+<!-- ## What Patterns Did You See? {.center}
 
 **Poll:** What were the areas where you saw preventable failures in the video? Answer in one or two words, e.g., "no documentation," "broken link," "permission unclear."
 
 . . .
 
-**You just identified the core problems that FAIR principles were designed to solve.**
+**You just identified the core problems that FAIR principles were designed to solve.** -->
 
 
 ::: {.notes}
