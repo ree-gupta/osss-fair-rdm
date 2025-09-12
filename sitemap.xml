@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ree-gupta.github.io/osss-fair-rdm/index.html</loc>
+    <loc>https://ree-gupta.github.io/osss-fair-rdm/slides.html</loc>
     <lastmod>2025-09-12T13:50:54.883Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ree-gupta.github.io/osss-fair-rdm/LICENSE.html</loc>
+    <lastmod>2025-09-12T12:14:17.980Z</lastmod>
   </url>
 </urlset>
