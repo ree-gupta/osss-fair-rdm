@@ -56,7 +56,7 @@ The workshop covers:
 The slides are built using [Quarto](https://quarto.org/) and formatted for Reveal.js presentations.
 
 ### Online Version
-View the published slides at: [GitHub Pages URL]
+View the published slides at: https://ree-gupta.github.io/osss-fair-rdm/
 
 ### Local Development
 1. Install [Quarto](https://quarto.org/docs/get-started/)
