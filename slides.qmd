@@ -51,6 +51,10 @@ In the next 105 minutes, we'll bridge that gap together. You'll leave with concr
 - **Micro worksheets** - Make preliminary decisions for your own data
 :::
 
+::: {.fragment .smallestish}
+Throughout the session, the Q&A and chat are open for any questions or comments
+:::
+
 ::: {.callout-tip .smallestish .nonincremental .fragment}
 #### Participation Options
 - Use an **alias name**, your **real name**, or **abstain** for polls/quizzes in Particify
