@@ -1056,7 +1056,7 @@ Think about your own search behavior. When you're looking for existing datasets,
 To think about this, you would go to your field's main repository or search engine, search for the kind of research you've done, and see if your dataset would actually show up in those results. If not, you know what needs work.
 :::
 
-## Activity : Quizz
+## Activity : Quiz
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -1427,8 +1427,6 @@ After 10 minutes, we'll have people share what they discovered using the templat
 
 **One way to improve terminology consistency:** _________________________________  
 *(Could be: controlled vocabulary, glossary creation, existing terminology, or team agreement)*
-
-**My next step (to do within 2 weeks):** _________________________________
 
 ## Be FAIR and CARE {.center .smaller}
 
