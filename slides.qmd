@@ -38,32 +38,31 @@ In the next 105 minutes, we'll bridge that gap together. You'll leave with concr
 
 ## Workshop Goals {.center .smaller}
 
+::::{.columns}
+::: {.column width="50%"}
 #### By the end, you will:
 - Understand parts of FAIR you should and should *NOT* worry about
 - Have practical skills for organizing, documenting, and sharing data
 - Know how to find and adopt standards your field already uses
 - Walk away with one concrete next step you'll take within the next month
+:::
 
-::: {.fragment .smallestish}
-#### How we'll get there:
+::: {.column width="50%" .fragment .callout-tip}
+#### We will have:
 - **Opening polls** - Share experiences and build motivation
-- **Interactive quizzes** - Test understanding 
+- **Fun quizzes** - Explore concepts togethe
 - **Micro worksheets** - Make preliminary decisions for your own data
-:::
 
-::: {.fragment .smallestish}
-Throughout the session, the Q&A and chat are open for any questions or comments
-:::
+- Throughout the session, the Q&A (Particify) and chat are open for any questions or comments
 
-::: {.callout-tip .smallestish .nonincremental .fragment}
-#### Participation Options
 - Use an **alias name**, your **real name**, or **abstain** for polls/quizzes in Particify
-- For worksheets: use the **shared document** (link provided) or **make your own notes**
+- For worksheets and notes, you can use the **shared document** (link provided) or **make your own notes**
+
 :::
+::::
+
 
 ::: {.notes}
-By the end of this session, you will understand what parts of FAIR data management are actually your responsibility versus what is handled by the tools you choose. You will know how to find and adopt standards your field already uses, avoiding the trap of trying to invent new ones. You will gain practical skills for organizing, documenting, and sharing your data in a way that makes it usable for others. And most importantly, you will leave with one concrete next step that you can take within the next month to improve your data management practices. My main goal today is to move you from overwhelm to confidence through practical, manageable steps and hopefully nudge you to be an active part of your research community's data culture.
-
 This is an interactive workshop, so we'll be using Particify throughout. I want everyone to feel comfortable participating at their own level. You can use whatever name you're comfortable with - your real name, an alias, or just observe without contributing. For the worksheets, I'll provide a shared document where you can collaborate, but you're also welcome to take your own private notes. The goal is learning, not performance.
 :::
 
@@ -714,48 +713,6 @@ The bigger picture here is consistency. When you establish predictable patterns,
 Two practical benchmarks to keep in mind: if you can't find a specific file in 30 seconds, your naming system needs work. And if a computer couldn't follow your organizational pattern to automatically work through your files, you're creating unnecessary future work for yourself and your team.
 :::
 
-<!-- ## Activity: Fix These Names {.center .smallestish}
-:::: {.columns}
-
-::: {.column width="48%"}
-### Problematic Filenames
-
-1. `Mike's final data (v2).xlsx`  
-   - *Problems: Spaces, apostrophe, parentheses*
-
-2. `results*.csv`  
-   - *Problems: Asterisk is a wildcard character*
-
-3. `föhrmann_daten_2025.txt`  
-   - *Problems: Umlaut (ö) causes encoding issues*
-
-4. `truly_final_version_USE_THIS_ONE_definitely_final_v2.doc`  
-   - *Problems: Too long, desperate versioning*
-:::
-::: {.column width="4%"}
-:::
-
-::: {.column width="48%"}
-### Better Versions
-
-1. `mike_data_2025-01-15_v02.xlsx`
-
-2. `results_2025-01-15_v01.csv`
-
-3. `foehrmann_data_2025-01-15_v01.txt`
-
-4. `manuscript_2025-01-15_final.docx`
-:::
-
-::::
-
-::: {.notes}
-Take about 60 seconds to examine these examples, they're all real filenames one could encounter in research projects. What problems can you spot?
-
-The first example violates multiple rules: the apostrophe and spaces would cause failures on Linux systems, and the parentheses create script errors. The second filename includes an asterisk, which computers interpret as a wildcard that would match multiple files in scripts. The third uses an umlaut that causes character encoding problems across different systems. The fourth is what I call "a cry for help in filename form", it's way too long and shows someone struggling to keep track of versions of their work.
-
-Notice how the improved versions might look boring, but they're completely functional and won't cause technical headaches. Sometimes boring is exactly what you want in a filename.
-::: -->
 
 ## Files and Folders: Versioning {.smaller}
 
@@ -1099,6 +1056,27 @@ Think about your own search behavior. When you're looking for existing datasets,
 To think about this, you would go to your field's main repository or search engine, search for the kind of research you've done, and see if your dataset would actually show up in those results. If not, you know what needs work.
 :::
 
+## Activity : Quizz
+
+:::: {.columns}
+::: {.column width="50%"}
+![](images/20250916-FAIR-RDM.png){width="80%"}
+:::
+
+::: {.column width="50%" .smaller .nonincremental}
+<br>
+
+**Join the interactive session:**
+
+[partici.fi/17172630](https://partici.fi/17172630)
+
+- Each question has only one correct answer
+- Feel free to use an alias name, your name or abstain
+- There is no time limit, but try to answer intuitively, we will try to give 15 seconds per question
+:::
+::::
+
+
 
 # Part IV: Creating Research Data for Unexpected Reuse {.section-title}
 **Making Data Interoperable & Reusable**
@@ -1409,18 +1387,18 @@ Your contribution to developing standards might be as simple as documenting and 
 1. **Go to:** [rdmkit.elixir-europe.org](https://rdmkit.elixir-europe.org)
 2. **Navigate to:** "Your Domain" section
 3. **Find:** Your research area or closest match
-4. **Note:** Organizational standards, reporting guidelines, vocabularies
-5. **Backup:** If nothing fits, check "Your Data" section by data type
+4. **Note:** Organizational standards, reporting guidelines, vocabularies, and other solutions
+5. **Backup:** If nothing fits, check "Your Tasks" section and choose what is most relevant to you
 :::
 :::
 
 ::: {.column width="40%"}
 ::: {.fragment}
 #### Remember:
-- This isn't about finding the *perfect* standard
+- This isn't about finding the *perfect* solution
 - It's about discovering what already exists
 - Even partial solutions count
-- Your field's informal practices matter too
+- Take notes thinking about your own research data
 :::
 :::
 ::::
@@ -1428,11 +1406,11 @@ Your contribution to developing standards might be as simple as documenting and 
 ::: {.notes}
 We're going to use RDMKit, which is specifically designed for researchers like you. It's organized by research domains and data types, making it much easier to find relevant standards than generic databases.
 
-Start at rdmkit.elixir-europe.org and go to the "Your Domain" section. Find your field or the closest match - don't worry if it's not perfect. Look for what they recommend for data organization, reporting, and vocabularies. If your field isn't listed, try the "Your Data" section and browse by data type instead.
+Start at rdmkit.elixir-europe.org and go to the "Your Domain" section. Find your field or the closest match - don't worry if it's not perfect. Look for what they recommend for data organization, reporting, and vocabularies. If your field isn't listed, try the "Your Tasks" section and browse by what's most relevant to your work.
 
-This isn't about finding the one perfect standard that solves everything. It's about discovering what your community has already figured out, even if it's incomplete. A 60% solution you can build on is infinitely better than starting from zero.
+This isn't about finding the one perfect standard that solves everything. It's about learning what exists and deciding what makes sense for your research. Whether you find field-specific standards or need to adapt general practices, you're building a foundation you can grow from.
 
-After 5 minutes, we'll have people share what they found using the template on the next slide.
+After 10 minutes, we'll have people share what they discovered using the template on the next slide.
 :::
 
 ## Your FAIR Toolkit Worksheet {.smaller}
@@ -1441,17 +1419,40 @@ After 5 minutes, we'll have people share what they found using the template on t
 
 **My research field/closest match:** _________________________________
 
-**One organizational standard I found:** _________________________________  
-*(or "None found - will adopt practices from [researcher/data publication/lab name]")*
+**One thing I discovered that could help my data organization:** _________________________________  
+*(Could be: field-specific standard, general practice, tool, or approach)*
 
-**One reporting guideline that applies:** _________________________________  
-*(or "Will use journal requirements as starting point")*
+**One resource for documenting my data:** _________________________________  
+*(Could be: reporting guideline, metadata schema, journal template, or documentation approach)*
 
-**One vocabulary/terminology resource:** _________________________________  
-*(or "Will create glossary for my research group")*
+**One way to improve terminology consistency:** _________________________________  
+*(Could be: controlled vocabulary, glossary creation, existing terminology, or team agreement)*
+
+**My next step (to do within 2 weeks):** _________________________________
+
+## Be FAIR and CARE {.center .smaller}
+
+:::: {.columns}
+::: {.column width="60%"}
+![Carroll et al. (2020). The CARE Principles for Indigenous Data Governance. *Data Science Journal*. [DOI: 10.5334/dsj-2020-043](https://datascience.codata.org/articles/10.5334/dsj-2020-043)](images/care-principles.png){width="60%"}
+:::
+
+::: {.column width="40%" }
+- FAIR: "Can people access this data?"
+- CARE: "Should they? How do communities benefit?"
+- Essential for Indigenous data and community-centered research
+:::
+::::
+
 
 ::: {.notes}
-Give everyone the worksheet to fill out during the activity. This keeps them focused and gives us concrete talking points when we reconvene. The template acknowledges that they might not find perfect matches and provides backup options. The "next step" question forces them to commit to one small action they can take immediately.
+Now that we've talked about community standards and adopting existing practices, it's important to address another framework that's increasingly essential in research data management: the CARE principles. While FAIR principles focus on making data technically accessible and reusable, CARE principles—Collective Benefit, Authority to Control, Responsibility, and Ethics—ensure that data use serves the communities it represents, especially Indigenous communities and other marginalized groups.
+
+CARE principles are particularly crucial when working with Indigenous data, cultural heritage information, or any data that represents community knowledge. They emphasize that communities should have authority over how their data is collected, used, and shared. This isn't just about consent—it's about ongoing relationships, reciprocity, and ensuring that research benefits the communities involved, not just the researchers.
+
+Think of CARE as the ethical complement to FAIR. Where FAIR asks "Can people access and use this data?", CARE asks "Should they?" and "How do we ensure the community benefits?" This is especially relevant as we move toward data sharing—it's not enough to make data technically accessible if we haven't considered the ethical implications and community impact.
+
+For most of you, this might mean ensuring your consent processes include discussions about long-term data use, checking whether your research benefits the communities you study, and being mindful of power dynamics in data ownership. Even if you're not working directly with Indigenous communities, CARE principles offer valuable guidance for responsible, community-centered research practices.
 :::
 
 
@@ -1489,21 +1490,23 @@ do with your data and will often avoid using it entirely—defeating all your ca
 
 :::: {.columns}
 ::: {.column width="60%"}
-::: {.fragment}
+::: {.fragment fragment-index=1}
 Many license options exist, but [Creative Commons](https://creativecommons.org) is the most widely used in research
 :::
 
-::: {.fragment data-id="cc-licenses"}
+::: {.fragment fragment-index=2}
 Rule of thumb: Choose the LEAST restrictive license
 :::
 
-::: {.fragment}
+::: {.fragment fragment-index=3}
 **Why? Maximum reuse = Maximum impact**
 :::
 :::
 
-::: {.column width="40%" .fragment data-id="cc-licenses"}
-![creativecommons.org, CC BY-SA 4.0](images/256px-Ordering_of_Creative_Commons_licenses_from_most_to_least_permissive.png)
+::: {.column width="40%"}
+::: {.fragment fragment-index=2}
+[![creativecommons.org, CC BY-SA 4.0](images/256px-Ordering_of_Creative_Commons_licenses_from_most_to_least_permissive.png)](https://creativecommons.org)
+:::
 :::
 ::::
 
@@ -1519,7 +1522,7 @@ There are several licenses out there, [Creative Commons](https://creativecommons
 :::
 
 ::: {.fragment}
-CC BY solves this: global use, simple credit.
+CC BY - simply "cite me if you use my data" - the norm in science
 :::
 
 ::: {.notes}
@@ -1535,7 +1538,7 @@ The recommendations are straightforward: use CC0 if your data isn't protected by
 :::
 
 ::: {.fragment}
-CC0 solves this: Universally compatible, zero restrictions
+CC BY solves this: global use, simple credit.
 :::
 
 ::: {.notes}
@@ -1609,7 +1612,7 @@ When you're unsure, Zenodo is a solid default choice backed by CERN with strong 
 4. Make a search for "[Zenodo](https://zenodo.org)", "[OSF](https://osf.io)", or "[Figshare](https://figshare.com)" if nothing field-specific appears
 
 ::: {.notes}
-Let's spend 3 minutes finding your repository options. Go to re3data.org and filter by your subject area first. Look for the key features we just discussed: data upload allowed, DOI assignment, and ideally some certification.
+Let's spend 5 minutes finding your repository options. Go to re3data.org and filter by your subject area first. Look for the key features we just discussed: data upload allowed, DOI assignment, and ideally some certification.
 
 Don't spend forever on this - check the top few results, read their scope quickly. Your goal is to identify one field-specific option if it exists, and have a general backup plan. Remember, Zenodo is always a reliable fallback that accepts any type of research data.
 
