@@ -1,14 +1,13 @@
 project:
   type: website
   output-dir: _site
-  render:
-    - "index.qmd"
-    - "!LICENSE.md"
 
 execute:
   freeze: auto
 
 website:
   title: "FAIR Research Data Management"
-  site-url: "https://ree-gupta.github.io/osss-fair-rdm"
-  navbar: false
+  navbar:
+    left:
+      - href: slides.html
+        text: "Slides"
