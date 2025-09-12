@@ -17,7 +17,6 @@ format:
     css: custom.css
     logo: images/LMU-OSC_logo.jpg
 ---
-
 ## Today's Journey {.center}
 
 . . .
@@ -45,9 +44,23 @@ In the next 105 minutes, we'll bridge that gap together. You'll leave with concr
 - Know how to find and adopt standards your field already uses
 - Walk away with one concrete next step you'll take within the next month
 
+::: {.fragment .smallestish}
+#### How we'll get there:
+- **Opening polls** - Share experiences and build motivation
+- **Interactive quizzes** - Test understanding 
+- **Micro worksheets** - Make preliminary decisions for your own data
+:::
+
+::: {.callout-tip .smallestish .nonincremental .fragment}
+#### Participation Options
+- Use an **alias name**, your **real name**, or **abstain** for polls/quizzes in Particify
+- For worksheets: use the **shared document** (link provided) or **make your own notes**
+:::
 
 ::: {.notes}
 By the end of this session, you will understand what parts of FAIR data management are actually your responsibility versus what is handled by the tools you choose. You will know how to find and adopt standards your field already uses, avoiding the trap of trying to invent new ones. You will gain practical skills for organizing, documenting, and sharing your data in a way that makes it usable for others. And most importantly, you will leave with one concrete next step that you can take within the next month to improve your data management practices. My main goal today is to move you from overwhelm to confidence through practical, manageable steps and hopefully nudge you to be an active part of your research community's data culture.
+
+This is an interactive workshop, so we'll be using Particify throughout. I want everyone to feel comfortable participating at their own level. You can use whatever name you're comfortable with - your real name, an alias, or just observe without contributing. For the worksheets, I'll provide a shared document where you can collaborate, but you're also welcome to take your own private notes. The goal is learning, not performance.
 :::
 
 
@@ -92,10 +105,25 @@ We are going to watch a video. As you watch this, take a mental note of the numb
 Pay attention to things that seemed completely reasonable in the moment but created problems later? And which of these disasters were actually preventable? The goal isn't to criticize these fictional researchers, it's to learn from their experiences so we can build better systems for ourselves.
 :::
 
-## Particify Room Link
+## Particify Room Link {.center}
 
+:::: {.columns}
+::: {.column width="50%"}
+![](images/20250916-FAIR-RDM.png){width="80%"}
+:::
 
-<!-- Insert Particify link here -->
+::: {.column width="50%"}
+<br>
+
+**Join the interactive session:**
+
+[partici.fi/17172630](https://partici.fi/17172630)
+
+<br>
+
+We'll use this for polls and collaborative activities throughout the workshop.
+:::
+::::
 
 
 ## How Familiar Does This Feel? {.center}
@@ -142,7 +170,7 @@ I was hoping that you would identify these patterns like you did, documentation 
 
 <br>
 
-2016: FAIR principles published (Wilkinson et al., Scientific Data)[^3]
+2016: FAIR principles published [^3]
 :::
 
 ::: {.column width="40%"}
@@ -158,7 +186,7 @@ I was hoping that you would identify these patterns like you did, documentation 
 
 ::::
 
-[^3]: Wilkinson et al. (2016). The FAIR Guiding Principles for scientific data management. Scientific Data 3:160018
+[^3]: Wilkinson et al. (2016). The FAIR guiding principles for scientific data management and stewardship. *Scientific Data*, 3:160018. [DOI: 10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
 
 ::: {.notes}
 Looking  at the patterns emerging in your responses, similar themes appear, regardless of the disciplines represented in the room. These problems are so universal that in 2014, researchers from fields as different as astronomy, biology, and social science met and realized they were all struggling with identical fundamental issues.
@@ -226,7 +254,7 @@ That's why it works across every field represented in this room.
 :::: {.columns}
 
 ::: {.column width="60%"}
-![FAIR Principles. *The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807*](images/fair-principles.svg){fig-alt="Illustration of FAIR principles showing Findable, Accessible, Interoperable, and Reusable concepts" fig-align="center"}
+![FAIR Principles. *The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence*. [DOI: 10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)](images/fair-principles.svg){fig-alt="Illustration of FAIR principles showing Findable, Accessible, Interoperable, and Reusable concepts" fig-align="center"}
 :::
 
 ::: {.fragment .column width="40%"}
@@ -337,7 +365,19 @@ Now let's count together how many times the word 'metadata' appears... It's high
 
 ## What Is Metadata, Really? {.center}
 
+:::: {.columns}
+::: {.column width="70%"}
 **Poll:** *"In one or two words, what is metadata to you?"*
+
+<br>
+
+Visit [partici.fi/17172630](https://partici.fi/17172630) to participate
+:::
+
+::: {.column width="30%"}
+![](images/20250916-FAIR-RDM.png){width="60%"}
+:::
+::::
 
 
 ::: {.notes}
@@ -351,7 +391,7 @@ Such diverse responses! 'context,' 'documentation,' 'data about data,' 'labels.'
 
 ## Metadata for Researchers {.center}
 
-![Metadata Framework adapted from Sobolev et al. (2014). Integrated platform and API for electrophysiological data. Front Neuroinform, 8:32. doi: 10.3389/fninf.2014.00032](images/metadata-framework.svg)
+![Metadata Framework adapted from Sobolev et al. (2014). Integrated platform and API for electrophysiological data. *Frontiers in Neuroinformatics*, 8:32. [DOI: 10.3389/fninf.2014.00032](https://doi.org/10.3389/fninf.2014.00032)](images/metadata-framework.svg)
 
 ::: {.notes}
 **Speaker Notes:**
@@ -420,12 +460,12 @@ Let us have another look at the principels again. There is a lot of jargon like 
 **Focus on the blue and metadata, adopt what exists, and let repositories handle the workings of the red**
 :::
 
-::: {.fragment .smallest}
+<!-- ::: {.fragment .smallest}
 
 - <span style="background-color: #ffe4b5;">Metadata (orange)</span>: Metadata (as machine-readable as possible) is the core - describe your data well
 - <span style="background-color: #ffcccc;">Technical Infrastructure (red)</span>: NOT your job - handled by repositories and IT teams
 - <span style="background-color: #cce5ff;">Social Decisions (blue)</span>: Your responsibility - choices about access, standards, and documentation
-:::
+::: -->
 
 
 
@@ -493,7 +533,7 @@ Adopt the recommendations from today and/or find and use what your field already
 2. **Document Your Data Well**:
 Create README, methods, and data dictionary
 
-3. **Make Five Key Decisions**:
+1. **Make Key Decisions**:
 Repository, license, organization, format, sharing level
 
 . . .
@@ -917,7 +957,7 @@ Florian Kohart will show you practical tools for creating data dictionaries on d
 The methodological details that determine whether your scientific findings can be replicated
 :::
 
-::: {.fragment .incremental}
+::: {.fragment .incremental .smallestish}
 - What equipment you used (exact models)
 - How you calibrated it (specific procedures)
 - When you collected data (dates, times, conditions)
@@ -1005,7 +1045,7 @@ The human context that bridges your research logic with others' understanding
 - Do they understand my methodological choices?
 - Would they know how to properly cite and use this work?
 :::
-::: {.column width="30%"}
+::: {.column width="30%" .fragment .nonincremental}
 - [Example 1 - Atmospheric Science](https://github.com/lmu-osc/FAIR-Data-Management/blob/main/Example1_READMETemplate.md)
 - [Example 2 - Social Science](https://github.com/lmu-osc/FAIR-Data-Management/blob/main/Example2_READMETemplate.md)
 - [Example 3 - Neuroscience](https://github.com/lmu-osc/FAIR-Data-Management/blob/main/Example3_READMETemplate.md)
@@ -1078,7 +1118,7 @@ But, is your data ready to be readily reused by others?
 ## The Hidden Work in Data Reuse {.center .smaller}
 
 :::: {.columns}
-::: {.column width="40%"}
+::: {.column width="40%" .fragment .nonincremental}
 #### You've made all these decisions:
 - File organization strategy
 - Naming conventions  
@@ -1211,11 +1251,15 @@ You have a brilliant idea about reusing existing data for a new analysis
 - Templates for documenting experiments
 :::
 
-::: {.fragment}
-#### Some examples include:
-- **CONSORT** for clinical trials
-- **ARRIVE** for animal research
-- **JARS** for psychological studies
+::: {.fragment .smallest}
+#### Some helpful resources:
+- [EQUATOR Network](https://www.equator-network.org/) - reporting guidelines for medicine and health research
+  - CONSORT (clinical trials)
+  - STROBE (observational studies)
+  - PRISMA (systematic reviews)
+  - ARRIVE (animal research)
+  - ..etc.
+- [MIAME and MINSEQE](https://www.ncbi.nlm.nih.gov/geo/info/MIAME.html) - microarray and sequencing experiments
 :::
 :::
 
@@ -1226,9 +1270,9 @@ This happens all the time. You find a dataset that looks perfect for your resear
 
 This isn't anyone's fault - you can't predict every future research question. But reporting guidelines help solve this by telling you what information your field has learned is generally useful to collect, even if it's not central to your current analysis.
 
-CONSORT, ARRIVE, JARS - these aren't arbitrary rules. They're checklists developed by researchers who've tried to replicate studies or reuse data and discovered what information is actually essential. They represent the collective experience of your field about what details matter.
+The EQUATOR Network is your go-to resource for finding established reporting guidelines which are listed by study type. CONSORT for clinical trials, STROBE for observational studies, PRISMA for systematic reviews, ARRIVE for animal research - these aren't arbitrary rules. They're checklists developed by researchers who've tried to replicate studies or reuse data and discovered what information is actually essential. For genomics work, MIAME and MINSEQE provide similar guidance for microarray and sequencing experiments.
 
-Use them as your safety net. They help ensure your data can answer not just today's questions, but tomorrow's questions too.
+These guidelines represent the collective experience of your field about what details matter for reproducibility and reuse. Use them as your safety net - they help ensure your data can answer not just today's questions, but tomorrow's questions too.
 :::
 
 ## Communicating About Concepts {.center .smaller}
@@ -1274,11 +1318,14 @@ The word "model" is useless for finding what you actually need
 - Standardized terms your field actually uses
 - Machine-readable categories
 
-::: {.fragment}
-#### Some examples include:
-- **Gene Ontology** for molecular biology
-- **MeSH terms** for medical research  
-- **EDAM** for bioinformatics tools/data
+::: {.fragment .smallest}
+#### Some helpful resources:
+- [Wikidata](https://www.wikidata.org/) - generic, multilingual vocabulary
+- [NCBI BioPortal](https://bioportal.bioontology.org/) - comprehensive collection of biomedical ontologies
+  - [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) - organisms
+  - [Gene Ontology (GO)](http://geneontology.org/) - molecular biology
+  - [MeSH terms](https://meshb.nlm.nih.gov/) - medical research
+  - [ChEBI](https://www.ebi.ac.uk/chebi/) - chemical entities
 :::
 :::
 ::::
@@ -1287,6 +1334,10 @@ The word "model" is useless for finding what you actually need
 This is the vocabulary problem in action. You search for "model" and get everything from runway fashion to airplane prototypes.
 
 Shared vocabularies solve this by providing precise, agreed-upon terms. Instead of "model," you'd search for "linear regression model" or "Alzheimer disease model mouse" - terms that have specific definitions your research community understands.
+
+Wikidata works across disciplines as a multilingual knowledge base. NCBI BioPortal is your gateway to hundreds of biomedical ontologies - it's like a one-stop shop for finding the right vocabulary for your field. If you're working with organisms, NCBI Taxonomy gives you standardized species names. For chemical compounds, ChEBI provides precise molecular identifiers. 
+
+The key insight: you don't need to create these vocabularies - they already exist. Gene Ontology has been developed by molecular biologists for decades. MeSH terms are used by every major medical database. EDAM covers bioinformatics tools and data types comprehensively.
 
 This isn't just about better search results. When everyone uses the same controlled vocabulary, computers can automatically find related datasets, combine data appropriately, and enable meta-analyses that would be impossible otherwise. Your data becomes part of a network instead of an isolated file.
 :::
@@ -1337,7 +1388,7 @@ Your contribution to developing standards might be as simple as documenting and 
 
 ## LMU-OSC Open Research Practice Guide {.center .smaller}
 
-![Ihle, M., Villagran Asiares, A. G., Betz, A. K., Gupta, R., & Koerte, I. K. (2025). cBRAIN open research practice guide (1.0). Zenodo. https://doi.org/10.5281/zenodo.16262261](images/open-research-practice-guide-ss.png)
+![Ihle et al. (2025). cBRAIN open research practice guide (1.0). *Zenodo*. [DOI: 10.5281/zenodo.16262261](https://doi.org/10.5281/zenodo.16262261)](images/open-research-practice-guide-ss.png)
 
 
 
@@ -1435,7 +1486,7 @@ do with your data and will often avoid using it entirely—defeating all your ca
 :::: {.columns}
 ::: {.column width="60%"}
 ::: {.fragment}
-Many license options exist, but Creative Commons is the most widely used in research
+Many license options exist, but [Creative Commons](https://creativecommons.org) is the most widely used in research
 :::
 
 ::: {.fragment data-id="cc-licenses"}
@@ -1453,7 +1504,7 @@ Rule of thumb: Choose the LEAST restrictive license
 ::::
 
 ::: {.notes}
-There are several licenses out there, Creative Commons, MIT, Apache, Open Data Commons—and ultimately it's your responsibility to pick one. If you don't want to read through all the options, Creative Commons licenses are usually a safe choice for research data. Remember this rule of thumb: go with the least restrictive license to maximize your data's reuse potential.
+There are several licenses out there, [Creative Commons](https://creativecommons.org), MIT, Apache, Open Data Commons—and ultimately it's your responsibility to pick one. If you don't want to read through all the options, Creative Commons licenses are usually a safe choice for research data. Remember this rule of thumb: go with the least restrictive license to maximize your data's reuse potential.
 :::
 
 ## Two Ideal Choices {.center}
@@ -1464,7 +1515,7 @@ There are several licenses out there, Creative Commons, MIT, Apache, Open Data C
 :::
 
 ::: {.fragment}
-CC-BY is just "cite me" - what researchers already do
+CC BY solves this: global use, simple credit.
 :::
 
 ::: {.notes}
@@ -1509,16 +1560,14 @@ right home that matches your data's needs and your research goals.
 ## Repository Choice: Match Your Needs {.center}
 
 ::: {.incremental}
-- Broad discoverability? → General repositories (Zenodo, Figshare)
-- Field-specific visibility? → Disciplinary repositories
-- Sensitive data + compliance? → Institutional repositories
-- Active collaboration? → Platforms with version control (OSF, GitHub)
+- Field-specific visibility? → Disciplinary repositories (preferred option)
+- Sensitive data + compliance? → Institutional repositories (Open Data LMU - personal consultation advantage)
+- Active collaboration? → Platforms with version control ([OSF](https://osf.io), [GitHub](https://github.com))
+- Broad discoverability? → General repositories ([Zenodo](https://zenodo.org), [Figshare](https://figshare.com))
 :::
 
 ::: {.notes}
-Your repository choice should be strategic. If you want maximum discoverability across all fields, general repositories like Zenodo or Figshare are great. If you want your research community to find you, look for disciplinary repositories. If you're dealing
-with sensitive data and need institutional support, your university repository might be best. And if you're actively collaborating and need version control, platforms like OSF or GitHub work well. Let me show you re3data.org, where you can filter
-repositories by your subject area to find the right fit.
+Your repository choice should be strategic. The preferred option is disciplinary repositories where your research community will find you. If you're dealing with sensitive data and need institutional support, your university repository might be best - consider seeking personal consultation as early as possible. If you're actively collaborating and need version control, platforms like OSF or GitHub work well. For maximum discoverability across all fields, general repositories like Zenodo or Figshare are great. Let me show you re3data.org, where you can filter repositories by your subject area to find the right fit.
 :::
 
 ## What Makes a Good Repository? {.center}
@@ -1533,7 +1582,7 @@ repositories by your subject area to find the right fit.
 :::
 
 ::: {.fragment}
-**When in doubt: Zenodo is a solid default choice**
+**When in doubt: [Zenodo](https://zenodo.org) is a solid default choice**
 :::
 
 
@@ -1553,7 +1602,7 @@ When you're unsure, Zenodo is a solid default choice backed by CERN with strong 
 1. Go to: [re3data.org](https://re3data.org)
 2. Type your research area in the search box
 3. Browse top results, pay attention to "Country", "Subjects"
-4. Make a search for "Zenodo", "OSF", or "Figshare" if nothing field-specific appears
+4. Make a search for "[Zenodo](https://zenodo.org)", "[OSF](https://osf.io)", or "[Figshare](https://figshare.com)" if nothing field-specific appears
 
 ::: {.notes}
 Let's spend 3 minutes finding your repository options. Go to re3data.org and filter by your subject area first. Look for the key features we just discussed: data upload allowed, DOI assignment, and ideally some certification.
@@ -1592,13 +1641,13 @@ PIDs = Permanent addresses that never break
 You've organized your data, documented it well, chosen a license, and picked a repository. But here's the final piece: how do you make sure people can actually find your work and that you get proper credit? This is where Persistent Identifiers come in—they're permanent digital addresses that never break, solving the link broken, 404 or page moved problem we've all experienced.
 :::
 
-## The Four PIDs You Need to Know {.center}
+## The Four PIDs You Need to Know {.center .smaller}
 
 ::: {.incremental}
-- DOI → What you created (datasets, papers)
-- ORCID → Who you are (your researcher identity)
-- RRID → What you used (materials, software)
-- ROR → Where you work (institution)
+- DOI (Digital Object Identifier) → **What you created** (datasets, papers) - *assigned by repository automatically*
+- ORCID (Open Researcher and Contributor ID) → **Who you are** (your researcher identity) - *you create and update profile* - [orcid.org](https://orcid.org)
+- RRID (Research Resource Identifier) → **What you used** (materials, software) - *you look up existing identifiers* - [rrid.site](https://rrid.site/)
+- ROR (Research Organization Registry) → **Where you work** (institution) - *institutional identifier, usually automatic* - [ror.org](https://ror.org)
 :::
 
 ::: {.fragment}
@@ -1610,7 +1659,7 @@ Four PIDs cover your research identity infrastructure. DOI identifies what you c
 the dataset generated?" by identifying specific materials. ROR identifies where the work happened. You don't need all four immediately—DOI for your data and ORCID for yourself covers most of what you need. This connects back to our proper metadata discussion. PIDs essentially formalize the key metadata questions in a standardized, machine-readable way. Instead of just writing "John Smith created this," you use an ORCID that uniquely identifies John Smith forever. Instead of a description that might be ambiguous, you have a DOI that points to the exact dataset. This is how we move from human-readable to machine-actionable metadata.
 :::
 
-## Data Availability Statement: Connecting All the Pieces {.center}
+## Data Availability Statement (DAS): Connecting All the Pieces {.center}
 
 ::: {.fragment}
 You've organized, licensed, chosen a repository, and got PIDs
@@ -1621,14 +1670,14 @@ But when someone reads your paper, how do they find your data?
 :::
 
 ::: {.fragment}
-A clear "Data Availability Statement" connects all the pieces
+A clear "Data Availability Statement" (DAS) connects all the pieces
 :::
 
 ::: {.notes}
 Your data is organized, licensed, living in a repository with a DOI, and you have your ORCID. When someone reads your paper, how do they actually find your data? You need a clear "Data Availability Statement" that connects all these pieces together.
 :::
 
-## Data Availability Statement Examples {.center .smaller}
+## Data Availability Statement (DAS) Examples {.center .smaller}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -1662,7 +1711,7 @@ Avoid vague statements like "data available upon request"—these create barrier
 - Does not require novel findings
 - Focuses on data quality and reuse potential
 - Peer-reviewed and citable
-- Specific journals: Scientific Data, GigaScience, F1000Research
+- Specific journals: [Scientific Data](https://www.nature.com/sdata/), [GigaScience](https://academic.oup.com/gigascience), [F1000Research](https://f1000research.com)
 :::
 
 ::: {.fragment}
@@ -1685,46 +1734,69 @@ For datasets that are particularly valuable or complex, consider publishing a da
 
 # Wrap-Up: Your FAIR Data Journey {.section-title}
 
-## First Simple FAIR Checklist {.center .nonincremental}
+## First Simple FAIR Checklist {.center .nonincremental .smaller}
 
 ::: {.columns .smaller }
-::: {.column width="50%" }
-#### Planning Phase
+::: {.column width="50%" .nonincremental}
+#### Planning Phase (Findable + Reusable)
 - [ ] Repository identified
-- [ ] File naming documented  
+- [ ] License selected (CC0/CC-BY)
+- [ ] File naming conventions documented
 - [ ] Folder structure planned
-- [ ] Standards identified
+- [ ] Community standards identified
 
-#### Active Research
-- [ ] README updated monthly
-- [ ] Data dictionary growing
-- [ ] Raw data protected
-- [ ] Versions tracked
+#### Active Research (Interoperable + Accessible)
+- [ ] README maintained with context
+- [ ] Data dictionary created
+- [ ] Metadata captured systematically
+- [ ] Open formats used when possible
+- [ ] Raw data preserved separately
 :::
 
-::: {.column width="50%"}
-#### Pre-Publication
-- [ ] Licenses chosen
-- [ ] Documentation complete
-- [ ] Repository tested
-- [ ] Formats converted
+::: {.column width="50%" .nonincremental}
+#### Pre-Publication (All FAIR principles)
+- [ ] Documentation complete and clear
+- [ ] Formats standardized for sharing
+- [ ] Data uploaded to repository
+- [ ] Metadata finalized
+- [ ] Access permissions set
 
-#### Publication
-- [ ] DOIs obtained
-- [ ] ORCID linked
-- [ ] DAS included
-- [ ] Links verified
+#### Publication (Findable + Accessible)
+- [ ] DOI assigned and verified
+- [ ] ORCID profile updated
+- [ ] Data Availability Statement (DAS) written
+- [ ] All links functional
 :::
 :::
 
 ::: {.notes}
 **Speaker Notes:**
-Here's your tangible takeaway - a FAIR checklist organized by research phase. Depeding on your project stage, you can focus on different sections.
+Here's your tangible takeaway - a FAIR checklist organized by research phase and mapped to FAIR principles. Notice how license selection happens early in planning, not as an afterthought. Each phase builds toward different FAIR goals: Planning sets up findability and reusability, Active Research ensures interoperability and accessibility, Pre-Publication brings everything together, and Publication makes it all discoverable. Depending on your project stage, you can focus on the relevant section.
 :::
 
-## OPTIONAL Follow-Up
+## OPTIONAL Follow-Up {.center .smaller}
 
-We have a self-guided tutorial where you evaluate already published datasets for FAIRness. You have guiding questions and a revisit of the FAIR principles. You can do this on your own time, and it's a great way to see how other researchers are (or not) implementing these concepts in practice.
+:::: {.columns}
+::: {.column width="40%" .smallestish .nonincremental}
+**Self-guided FAIR evaluation tutorial**
+
+Practice applying FAIR principles by evaluating real published datasets. You'll work through:
+
+- **Publication** - Can you associate the dataset with its publication? Are the licenses clear?
+- **Documentation** - Is the metadata sufficient for reuse? How about the README and data dictionary?
+- **Organization** - Can you navigate and understand the data structure?
+
+:::
+
+::: {.column width="60%"}
+![[**lmu-osc.github.io/FAIR-Data-Management/**](https://lmu-osc.github.io/FAIR-Data-Management/)](images/optional-follow-up-ss.png)
+:::
+::::
+
+::: {.callout-tip .smallestish}
+#### Why do this?
+This hands-on practice helps you recognize FAIR (and not-so-FAIR) data - making you a better data consumer and producer.
+:::
 
 ## Your Commitment {.center}
 
