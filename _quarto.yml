@@ -11,3 +11,9 @@ website:
     left:
       - href: slides.html
         text: "Slides"
+
+format:
+  revealjs:
+    scrollable: true
+    smaller: true
+    auto-stretch: false

@@ -86,7 +86,7 @@ After the inspiring talks about open science and data sharing...
 :::
 
 ::: {.column width="60%" .fragment}
-![](images/lets-document.png)
+![](images/lets-document.png){width="80%"}
 
 <small>Source: [dataedo.com/cartoon/lets-document](https://dataedo.com/cartoon/lets-document)</small>
 <!--https://dataedo.com/cartoon/lets-document-->
@@ -575,7 +575,7 @@ Research data management can be chaotic
 :::
 
 ::: {.column width="50%"}
-![](images/experimentales-002_typical-story-line-about-order.png)
+![](images/experimentales-002_typical-story-line-about-order.png){width="80%"}
 
 <small>Source: [ExperimenTales by Lyuba Zehl](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 :::
@@ -728,7 +728,7 @@ Two practical benchmarks to keep in mind: if you can't find a specific file in 3
 
 :::: {.columns}
 ::: {.column width="32%"}
-![](images/not-final-doc-phdcomic.gif)
+![](images/not-final-doc-phdcomic.gif){width="80%"}
 
 <small>Source: [PhD Comics](https://phdcomics.com/) © Piled Higher and Deeper Publishing</small>
 :::
@@ -1015,27 +1015,40 @@ You might think that the methods section of your paper already covers this, but 
 The human context that bridges your research logic with others' understanding
 :::
 
-:::: {.columns}
-::: {.column width="70%" .fragment}
+::: {.fragment}
 - Can someone understand why I organized my data this way?
 - Would they know what questions drove this research?
 - Can they navigate my files without getting lost?
 - Do they understand my methodological choices?
 - Would they know how to properly cite and use this work?
 :::
-::: {.column width="30%" .fragment .nonincremental}
-- [Example 1 - Atmospheric Science](https://github.com/lmu-osc/FAIR-Data-Management/blob/main/Example1_READMETemplate.md)
-- [Example 2 - Social Science](https://github.com/lmu-osc/FAIR-Data-Management/blob/main/Example2_READMETemplate.md)
-- [Example 3 - Neuroscience](https://github.com/lmu-osc/FAIR-Data-Management/blob/main/Example3_READMETemplate.md)
-- [Example 4 - Psychology](https://github.com/lmu-osc/FAIR-Data-Management/blob/main/Example4_READMETemplate.md)
-:::
-::::
 
 ::: {.notes}
 So, READMEs are a place to capture the "soft" metadata from our framework earlier. TThey are your opportunity to speak directly to future users of your data. While your hard metadata captures the technical details for reproduction, your README captures the human story—the research context, organizational logic, and practical guidance that transforms a collection of files into a usable scientific resource.
 
 Ask yourself: if a researcher in your field stumbled across your dataset six months from now, would they understand not just what you did, but why you did it that way? Your README is the bridge between your internal project logic and external understanding.
 :::
+
+## Example README Structure {.center .smaller}
+
+:::: {.columns}
+::: {.column width="50%" .fragment}
+- Project Overview
+- Data Description
+- Folder Structure Explanation
+- Methodological Context
+- Usage Notes
+- Citation Information
+- Contact Information
+- Acknowledgments
+:::
+::: {.column width="50%" .fragment .nonincremental}
+- [Example 1 - Atmospheric Science](https://github.com/lmu-osc/FAIR-Data-Management/blob/main/Example1_READMETemplate.md)
+- [Example 2 - Social Science](https://github.com/lmu-osc/FAIR-Data-Management/blob/main/Example2_READMETemplate.md)
+- [Example 3 - Neuroscience](https://github.com/lmu-osc/FAIR-Data-Management/blob/main/Example3_READMETemplate.md)
+- [Example 4 - Psychology](https://github.com/lmu-osc/FAIR-Data-Management/blob/main/Example4_READMETemplate.md)
+:::
+::::
 
 ## Proper Metadata: Can somebody find this? {.center .smaller}
 
@@ -1087,9 +1100,9 @@ To think about this, you would go to your field's main repository or search engi
 
 [partici.fi/17172630](https://partici.fi/17172630)
 
-- Each question has only one correct answer
-- Feel free to use an alias name, your name or abstain
-- There is no time limit, but try to answer intuitively, we will try to give 15 seconds per question
+- Each question has only **one correct** answer
+- Feel free to use an **alias name, your name or abstain**
+- There is **no time limit**, but try to answer intuitively, we will try to give 15 seconds per question
 :::
 ::::
 
@@ -1252,7 +1265,7 @@ You have a brilliant idea about reusing existing data for a new analysis
 - Templates for documenting experiments
 :::
 
-::: {.fragment .smallest}
+::: {.fragment .smallestish}
 #### Some helpful resources:
 - [EQUATOR Network](https://www.equator-network.org/) - reporting guidelines for medicine and health research
   - CONSORT (clinical trials)
@@ -1323,7 +1336,7 @@ The word "model" is useless for finding what you actually need
 - Standardized terms your field actually uses
 - Machine-readable categories
 
-::: {.fragment .smallest}
+::: {.fragment .smallestish}
 #### Some helpful resources:
 - [Wikidata](https://www.wikidata.org/) - generic, multilingual vocabulary
 - [NCBI BioPortal](https://bioportal.bioontology.org/) - comprehensive collection of biomedical ontologies
@@ -1855,7 +1868,7 @@ Remember, this commitment isn't about achieving perfection or transforming every
 
 ## Thank You! Questions? {.section-title .center}
 
-## Acknowledgments {.center .smaller}
+## Acknowledgments {.center .smaller .nonincremental}
 
 We gratefully acknowledge the inspiration, resources, and materials that made this workshop possible:
 
