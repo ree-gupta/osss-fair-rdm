@@ -86,7 +86,9 @@ After the inspiring talks about open science and data sharing...
 :::
 
 ::: {.column width="60%" .fragment}
-![Let's Document](images/lets-document.png "Documenting data is overwhelming")
+![](images/lets-document.png)
+
+<small>Source: [dataedo.com/cartoon/lets-document](https://dataedo.com/cartoon/lets-document)</small>
 <!--https://dataedo.com/cartoon/lets-document-->
 :::
 ::::
@@ -100,7 +102,9 @@ As I said, we're going to bridge that gap together with concrete, manageable ste
 
 ## When Good Intentions Meet Reality {.center}
 
-<iframe width="840" height="472" src="https://www.youtube.com/embed/N2zK3sAtr-4" title="Data Sharing and Management Snafu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< video https://www.youtube.com/embed/N2zK3sAtr-4 width="840" height="472" >}}
+
+<small>Source: [Data Sharing and Management Snafu](https://www.youtube.com/watch?v=N2zK3sAtr-4) by [NYU Health Sciences Library](https://hslguides.med.nyu.edu/data_management) (2013)</small>
 
 ::: {.notes}
 We are going to watch a video. As you watch this, take a mental note of the number of times you think, "that could be me" or "I've been there." 
@@ -275,6 +279,8 @@ Every disaster we saw had a prevention moment much earlier. You already think th
 ## Data Life Cycle Approach to FAIR
 
 ![](images/RD-Lifecycle.png)
+
+<small>Source: Research data life cycle by Jürgen Rohrwild</small>
 
 ::: {.notes}
 This is where FAIR research data management by design pays off. Every stage you see here represents a choice point where you can either prevent problems or create them. The researchers in that video didn't fail because they were careless—they failed because they didn't have systematic prevention built into their workflow.
@@ -568,6 +574,8 @@ Research data management can be chaotic
 
 ::: {.column width="50%"}
 ![](images/experimentales-002_typical-story-line-about-order.png)
+
+<small>Source: [ExperimenTales](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 :::
 
 ::::
@@ -719,6 +727,8 @@ Two practical benchmarks to keep in mind: if you can't find a specific file in 3
 :::: {.columns}
 ::: {.column width="32%"}
 ![](images/not-final-doc-phdcomic.gif)
+
+<small>Source: [PhD Comics](https://phdcomics.com/) © Piled Higher and Deeper Publishing</small>
 :::
 
 ::: {.column width="60%"}
@@ -778,7 +788,9 @@ Binary formats like SPSS files are efficient during active research but may beco
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](images/norm_normal_file_format_2x.png "https://xkcd.com/2116/"){width="70%"}
+![](images/norm_normal_file_format_2x.png){width="70%"}
+
+<small>Source: [xkcd.com/2116](https://xkcd.com/2116/) (CC BY-NC 2.5)</small>
 :::
 ::: {.column width="60%"}
 ::: {.fragment}
@@ -930,6 +942,8 @@ The methodological details that determine whether your scientific findings can b
 
 ::: {.column width="40%"}
 ![](images/experimentales-003_be-aware-of-your-settings.png){fig-align="center"}
+
+<small>Source: [ExperimenTales](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 <!-- https://gin.g-node.org/lzehl/ExperimenTales/raw/master/stories/experimentales-003/experimentales-003_be-aware-of-your-settings.png -->
 :::
 
@@ -1085,6 +1099,8 @@ To think about this, you would go to your field's main repository or search engi
 ## Why should I care? {.center}
 
 ![](images/experimentales-001_to-share-or-not-to-share.png)
+
+<small>Source: [ExperimenTales](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 
 ::: {.notes}
 So, so far we have talked about organizing and documenting your data for your future self and collaborators. But why should you care about making your data interoperable and reusable for others you don't know yet?
@@ -1262,9 +1278,13 @@ These guidelines represent the collective experience of your field about what de
 :::: {.columns}
 ::: {.column width="50%" .fragment}
 ![](images/model-no-context.png){fig-align="center" width="80%"}
+
+<small>Source: [ExperimenTales](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 :::
 ::: {.column width="50%" .fragment}
 ![](images/model-context.png){fig-align="center" width="80%"}
+
+<small>Source: [ExperimenTales](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 :::
 ::::
 
@@ -1831,3 +1851,16 @@ Remember, this commitment isn't about achieving perfection or transforming every
 
 
 ## Thank You! Questions? {.section-title .center}
+
+## Acknowledgments {.center .smaller}
+
+We gratefully acknowledge the inspiration, resources, and materials that made this workshop possible:
+
+- **Kleemeyer, M., Leiminger, L., Meier, L. & Walter, D. (2024).** FAIR Research Data Management Workshop  
+  [lmu-osc.github.io/FAIR-Data-Management/](https://lmu-osc.github.io/FAIR-Data-Management/)
+
+- **Research Data Management in Neuroscience**  
+  Course materials by Thomas Wachtler, LMU Munich
+
+- **So, Why Go FAIR?**  
+  April 17, 2023: [osf.io/2jbps](https://osf.io/2jbps)

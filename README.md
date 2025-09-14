@@ -80,3 +80,11 @@ Feedback and contributions are welcome! Please open an issue or submit a pull re
 ## Contact
 
 For questions about this workshop, contact the LMU Open Science Center.
+
+## Acknowledgments
+
+This material is based upon:
+
+- Kleemeyer, M., Leiminger, L., Meier, L. & Walter, D. (2024). FAIR Research Data Management Workshop. https://lmu-osc.github.io/FAIR-Data-Management/
+- Course materials from Research Data Management (RDM) in Neuroscience course at LMU Munich by Thomas Wachtler
+- So, Why Go FAIR? April 17  2023: https://osf.io/2jbps
