@@ -467,6 +467,8 @@ Let us have another look at the principels again. There is a lot of jargon like 
 
 ::: {.fragment}
 **Focus on the blue and metadata, adopt what exists, and let repositories handle the workings of the red**
+
+Source: Adapted from So, Why Go FAIR? April 17, 2023 [osf.io/2jbps](https://osf.io/2jbps/)
 :::
 
 <!-- ::: {.fragment .smallest}
@@ -575,7 +577,7 @@ Research data management can be chaotic
 ::: {.column width="50%"}
 ![](images/experimentales-002_typical-story-line-about-order.png)
 
-<small>Source: [ExperimenTales](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
+<small>Source: [ExperimenTales by Lyuba Zehl](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 :::
 
 ::::
@@ -846,6 +848,7 @@ Tabular Data
 Nested Data
 
 - **JSON** - structured, web-friendly
+- **YAML** - human-readable, structured
 - **XML** - complex hierarchies
 :::
 ::: {.fragment}
@@ -943,7 +946,7 @@ The methodological details that determine whether your scientific findings can b
 ::: {.column width="40%"}
 ![](images/experimentales-003_be-aware-of-your-settings.png){fig-align="center"}
 
-<small>Source: [ExperimenTales](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
+<small>Source: [ExperimenTales by Lyuba Zehl](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 <!-- https://gin.g-node.org/lzehl/ExperimenTales/raw/master/stories/experimentales-003/experimentales-003_be-aware-of-your-settings.png -->
 :::
 
@@ -1100,7 +1103,7 @@ To think about this, you would go to your field's main repository or search engi
 
 ![](images/experimentales-001_to-share-or-not-to-share.png)
 
-<small>Source: [ExperimenTales](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
+<small>Source: [ExperimenTales by Lyuba Zehl](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 
 ::: {.notes}
 So, so far we have talked about organizing and documenting your data for your future self and collaborators. But why should you care about making your data interoperable and reusable for others you don't know yet?
@@ -1278,15 +1281,15 @@ These guidelines represent the collective experience of your field about what de
 :::: {.columns}
 ::: {.column width="50%" .fragment}
 ![](images/model-no-context.png){fig-align="center" width="80%"}
-
-<small>Source: [ExperimenTales](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 :::
 ::: {.column width="50%" .fragment}
 ![](images/model-context.png){fig-align="center" width="80%"}
-
-<small>Source: [ExperimenTales](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 :::
 ::::
+
+::: {.fragment}
+<small>Source: Illustrations from EBRAINS School 2024 by Lyuba Zehl - used with permission</small>
+:::
 
 ::: {.notes}
 So, what do you think this cartoon here is illustrating?
