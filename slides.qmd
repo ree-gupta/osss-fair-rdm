@@ -1,7 +1,7 @@
 ---
 title: "FAIR Research Data Management"
 subtitle: "A Hands-on, Actionable Workshop for Researchers"
-author: "Reema Gupta & Laura Meier"
+author: "Reema Gupta, Laura Meier & Sara Middleton"
 format:
   revealjs:
     theme: default
@@ -874,6 +874,43 @@ NetCDF and HDF5 are scientific formats they're self-describing, which means the 
 
 Remember: your choice today determines whether someone can use your data in 2045. Choose the format that maximizes long-term accessibility, not just current convenience.
 :::
+
+## Data Storage: Keeping Your Work Safe {.center .smaller}
+
+:::: {.columns}
+::: {.column width="60%"}
+::: {.fragment}
+**Use institutional storage as much as possible**
+:::
+
+::: {.fragment}
+##### Follow the 3-2-1 Backup Rule
+- **3** copies of important data
+- **2** different storage types
+- **1** copy stored off-site
+:::
+
+::: {.fragment}
+**Raw data is irreplaceable, treat it with care**
+:::
+
+:::
+
+::: {.column width="40%"}
+::: {.fragment}
+##### Test Your Backups
+- Try restoring a file periodically
+- Verify files still open correctly
+:::
+
+::: {.fragment}
+##### Storage Hierarchy
+- Local: temporary files only
+- Network: active project data
+- Off-site: disaster protection
+:::
+:::
+::::
 
 
 ## Data Dictionary: Making Numbers Meaningful {.center .smaller}
