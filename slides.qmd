@@ -298,7 +298,7 @@ This systematic thinking through each stage is exactly what a document called "D
 
 ## Data Management Plan Session {.center}
 
-![](images/RDM-session-ss.png)
+![](images/RDM-session-ss-2026.png)
 
 ::: {.callout-tip}
 #### Related Session Alert
