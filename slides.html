@@ -6,10 +6,10 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.29">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.37">
 
-  <meta name="author" content="Reema Gupta &amp; Laura Meier">
+  <meta name="author" content="Reema Gupta, Laura Meier &amp; Sara Lil Middleton">
   <title>FAIR Research Data Management</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -95,8 +98,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
-  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-82a73f960526108dd287e3d8c1986e3e.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -194,14 +196,14 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
+<section id="title-slide" data-background-color="#00883A" class="quarto-title-block center">
   <h1 class="title">FAIR Research Data Management</h1>
   <p class="subtitle">A Hands-on, Actionable Workshop for Researchers</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Reema Gupta &amp; Laura Meier 
+Reema Gupta, Laura Meier &amp; Sara Lil Middleton 
 </div>
 </div>
 </div>
@@ -215,7 +217,7 @@ Reema Gupta &amp; Laura Meier
 <div class="fragment">
 <p>To here: <em>“I feel confident to manage and share my research data”</em></p>
 <aside class="notes">
-<p>Welcome, everyone. So, I hope that Felix has sufficiently inspired you to share your data and implement the FAIR principles. In this session, we will try translating that good intention into actual practice. This might feel daunting, but that’s completely understandable.</p>
+<p>Welcome, everyone. So, I hope the data sharing lecture we just had has sufficiently inspired you to share your data and implement the FAIR principles. In this session, we will try translating that good intention into actual practice. This might feel daunting, but that’s completely understandable.</p>
 <p>In the next 105 minutes, we’ll bridge that gap together. You’ll leave with concrete decisions made and practical tools you can use starting tomorrow. This workshop isn’t about achieving perfection in your research data management practices but identifying where you can improve and take clear, manageable first steps that will transform how you handle data.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -278,7 +280,7 @@ Reema Gupta &amp; Laura Meier
       }</style></aside>
 </section>
 <section>
-<section id="part-i-why-this-matters-to-you" class="title-slide slide level1 section-title center">
+<section id="part-i-why-this-matters-to-you" class="title-slide slide level1 section-title part center" data-background-color="#00883A">
 <h1>Part I: Why This Matters to YOU</h1>
 <p><em>Building motivation from shared experiences</em></p>
 </section>
@@ -336,11 +338,11 @@ Reema Gupta &amp; Laura Meier
 <h2>Particify Room Link</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><img data-src="images/20250916-FAIR-RDM.png" style="width:80.0%"></p>
+<p><img data-src="images/20260908-FAIR-RDM.png" style="width:80.0%"></p>
 </div><div class="column" style="width:50%;">
 <p><br></p>
 <p><strong>Join the interactive session:</strong></p>
-<p><a href="https://partici.fi/17172630">partici.fi/17172630</a></p>
+<p><a href="https://partici.fi/51717115">partici.fi/51717115</a></p>
 <p><br></p>
 <p>We’ll use this for polls and collaborative activities throughout the workshop.</p>
 </div></div>
@@ -398,7 +400,7 @@ Reema Gupta &amp; Laura Meier
 <p><br></p>
 <p>2016: FAIR principles published <sup>1</sup></p>
 </div><div class="column" style="width:40%;">
-<p>2025: You’re here because:</p>
+<p>2026: You’re here because:</p>
 <div class="smaller">
 <ul>
 <li class="fragment">Your funder requires it (or will soon)</li>
@@ -496,7 +498,7 @@ Make data <strong>Reusable</strong>
       }</style></aside>
 </section></section>
 <section>
-<section id="part-ii-making-fair-tangible" class="title-slide slide level1 section-title center">
+<section id="part-ii-making-fair-tangible" class="title-slide slide level1 section-title part center" data-background-color="#00883A">
 <h1>Part II: Making FAIR Tangible</h1>
 <p><em>From abstract principles to concrete actions</em></p>
 </section>
@@ -560,7 +562,7 @@ Make data <strong>Reusable</strong>
 <p><strong>Related Session Alert</strong></p>
 </div>
 <div class="callout-content">
-<p><strong>Wednesday 17th September, 13:15 - 14:15: Research Data Management Plans</strong></p>
+<p><strong>Wednesday 9th September, 13:15 - 14:15: Research Data Management Plans</strong></p>
 </div>
 </div>
 </div>
@@ -660,9 +662,9 @@ Make data <strong>Reusable</strong>
 <div class="column" style="width:70%;">
 <p><strong>Poll:</strong> <em>“In one or two words, what is metadata to you?”</em></p>
 <p><br></p>
-<p>Visit <a href="https://partici.fi/17172630">partici.fi/17172630</a> to participate</p>
+<p>Visit <a href="https://partici.fi/51717115">partici.fi/51717115</a> to participate</p>
 </div><div class="column" style="width:30%;">
-<p><img data-src="images/20250916-FAIR-RDM.png" style="width:60.0%"></p>
+<p><img data-src="images/20260908-FAIR-RDM.png" style="width:60.0%"></p>
 </div></div>
 <aside class="notes">
 <p><strong>Speaker Notes:</strong> So, maybe you must have heard the term “metadata” or maybe you haven’t. Let us take a minute and see what you think. Use this poll again to write in one or two words that capture your understanding of metadata. If you haven’t heard the term before, simply write “No clue”.</p>
@@ -825,7 +827,7 @@ Make data <strong>Reusable</strong>
 </div>
 </section></section>
 <section>
-<section id="part-iii-managing-data-for-your-future-self-and-collaborators" class="title-slide slide level1 section-title center">
+<section id="part-iii-managing-data-for-your-future-self-and-collaborators" class="title-slide slide level1 section-title part center" data-background-color="#00883A">
 <h1>Part III: Managing Data for Your Future Self and Collaborators</h1>
 <p><strong>Creating FAIR Research Data</strong></p>
 </section>
@@ -842,7 +844,7 @@ Make data <strong>Reusable</strong>
 <li class="fragment">Lost files and wasted time</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><img data-src="images/experimentales-002_typical-story-line-about-order.png" style="width:80.0%"></p>
+<p><img data-src="images/experimentales-002_typical-story-line-about-order.png" height="560"></p>
 <p><small>Source: <a href="https://gin.g-node.org/lzehl/ExperimenTales">ExperimenTales by Lyuba Zehl</a> (CC BY 4.0)</small></p>
 </div></div>
 <aside class="notes">
@@ -889,10 +891,10 @@ Make data <strong>Reusable</strong>
 <p><strong>Take a decision, document it and be consistent.</strong></p>
 </div>
 </div><div class="column" style="width:40%;">
-<p><img data-src="images/folder-hierarchy.svg"></p>
+<p><img data-src="images/folder-hierarchy.svg" height="560"></p>
 </div></div>
 </section>
-<section id="example-folder-structure" class="slide level2 center">
+<section id="example-folder-structure" class="slide level2 center smaller">
 <h2>Example Folder Structure</h2>
 <pre><code>.
 ├── 01_data/                # All project data
@@ -1005,7 +1007,7 @@ Make data <strong>Reusable</strong>
 <h2>Files and Folders: Versioning</h2>
 <div class="columns">
 <div class="column" style="width:32%;">
-<p><img data-src="images/not-final-doc-phdcomic.gif" style="width:80.0%"></p>
+<p><img data-src="images/not-final-doc-phdcomic.gif" style="width:70.0%"></p>
 <p><small>Source: <a href="https://phdcomics.com/">PhD Comics</a> © Piled Higher and Deeper Publishing</small></p>
 </div><div class="column" style="width:60%;">
 <ul>
@@ -1025,7 +1027,7 @@ Make data <strong>Reusable</strong>
 <p><strong>Related Session Alert</strong></p>
 </div>
 <div class="callout-content">
-<p><strong>Wednesday 17 September, 14:30-17:30: Version control in RStudio with Git</strong></p>
+<p><strong>Wednesday 9 September, 14:30-17:30: Version control in RStudio with Git</strong></p>
 </div>
 </div>
 </div>
@@ -1087,7 +1089,7 @@ Make data <strong>Reusable</strong>
 <h2>File Format Decisions</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
-<p><img data-src="images/norm_normal_file_format_2x.png" style="width:70.0%"></p>
+<p><img data-src="images/norm_normal_file_format_2x.png" style="width:55.0%"></p>
 <p><small>Source: <a href="https://xkcd.com/2116/">xkcd.com/2116</a> (CC BY-NC 2.5)</small></p>
 </div><div class="column" style="width:60%;">
 <div class="fragment">
@@ -1181,15 +1183,51 @@ Make data <strong>Reusable</strong>
           display:block!important;
       }</style></aside>
 </section>
+<section id="data-storage-keeping-your-work-safe" class="slide level2 center smaller">
+<h2>Data Storage: Keeping Your Work Safe</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="fragment">
+<p><strong>Use institutional storage as much as possible</strong></p>
+</div>
+<div class="fragment">
+<h5 id="follow-the-3-2-1-backup-rule">Follow the 3-2-1 Backup Rule</h5>
+<ul>
+<li class="fragment"><strong>3</strong> copies of important data</li>
+<li class="fragment"><strong>2</strong> different storage types</li>
+<li class="fragment"><strong>1</strong> copy stored off-site</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Raw data is irreplaceable, treat it with care</strong></p>
+</div>
+</div><div class="column" style="width:40%;">
+<div class="fragment">
+<h5 id="test-your-backups">Test Your Backups</h5>
+<ul>
+<li class="fragment">Try restoring a file periodically</li>
+<li class="fragment">Verify files still open correctly</li>
+</ul>
+</div>
+<div class="fragment">
+<h5 id="storage-hierarchy">Storage Hierarchy</h5>
+<ul>
+<li class="fragment">Local: temporary files only</li>
+<li class="fragment">Network: active project data</li>
+<li class="fragment">Off-site: disaster protection</li>
+</ul>
+</div>
+</div></div>
+</section>
 <section id="data-dictionary-making-numbers-meaningful" class="slide level2 center smaller">
 <h2>Data Dictionary: Making Numbers Meaningful</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource csv number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>id,age,score,group,time</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource csv number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>id,age,score,group,time</span>
 <span id="cb2-2"><a></a>1,34,7.2,A,1250</span>
 <span id="cb2-3"><a></a>2,28,5.1,B,890</span>
 <span id="cb2-4"><a></a>3,41,8.9,A,1455</span>
-<span id="cb2-5"><a></a>4,37,6.3,B,1100</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-5"><a></a>4,37,6.3,B,1100</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="fragment">
 <ul>
 <li>Just numbers in cells</li>
@@ -1430,11 +1468,11 @@ time: Reaction time in milliseconds</code></pre>
 <h2>Activity : Quiz</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><img data-src="images/20250916-FAIR-RDM.png" style="width:80.0%"></p>
+<p><img data-src="images/20260908-FAIR-RDM.png" style="width:80.0%"></p>
 </div><div class="column smaller" style="width:50%;">
 <p><br></p>
 <p><strong>Join the interactive session:</strong></p>
-<p><a href="https://partici.fi/17172630">partici.fi/17172630</a></p>
+<p><a href="https://partici.fi/51717115">partici.fi/51717115</a></p>
 <ul>
 <li>Each question has only <strong>one correct</strong> answer</li>
 <li>Feel free to use an <strong>alias name, your name or abstain</strong></li>
@@ -1443,7 +1481,7 @@ time: Reaction time in milliseconds</code></pre>
 </div></div>
 </section></section>
 <section>
-<section id="part-iv-creating-research-data-for-unexpected-reuse" class="title-slide slide level1 section-title center">
+<section id="part-iv-creating-research-data-for-unexpected-reuse" class="title-slide slide level1 section-title part center" data-background-color="#00883A">
 <h1>Part IV: Creating Research Data for Unexpected Reuse</h1>
 <p><strong>Making Data Interoperable &amp; Reusable</strong></p>
 </section>
@@ -1843,7 +1881,7 @@ The boundaries between these categories are intentionally fuzzy. Most establishe
 <div class="column" style="width:60%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/care-principles.png" style="width:60.0%"></p>
+<p><img data-src="images/care-principles.png" style="width:42.0%"></p>
 <figcaption>Carroll et al.&nbsp;(2020). The CARE Principles for Indigenous Data Governance. <em>Data Science Journal</em>. <a href="https://datascience.codata.org/articles/10.5334/dsj-2020-043">DOI: 10.5334/dsj-2020-043</a></figcaption>
 </figure>
 </div>
@@ -1872,7 +1910,7 @@ The boundaries between these categories are intentionally fuzzy. Most establishe
       }</style></aside>
 </section></section>
 <section>
-<section id="part-v-sharing-your-data-with-the-world" class="title-slide slide level1 section-title center">
+<section id="part-v-sharing-your-data-with-the-world" class="title-slide slide level1 section-title part center" data-background-color="#00883A">
 <h1>Part V: Sharing Your Data with the World</h1>
 <aside class="notes">
 <p>So, now your data is well organized, well documented, and follows community standards. The next step is to make sure it can actually be found and accessed by others. The very first step in making your data FAIR is ensuring it’s findable. If no one can discover your dataset, all the effort you’ve put into organizing and documenting it is wasted.</p>
@@ -2243,7 +2281,7 @@ The boundaries between these categories are intentionally fuzzy. Most establishe
 </div>
 </div><div class="column" style="width:40%;">
 <div class="overlay-container" style="position: relative; width: 100%; height: 500px;">
-<p><img data-src="images/nature-scientific-data-ss.png" style="position: absolute; top: 0; left: 0; z-index: 1; width: 100%;"> <img data-src="images/bmc-research-note-ss.png" style="position: absolute; top: 200px; left: 150px; z-index: 2; width: 100%;"></p>
+<p><img data-src="images/nature-scientific-data-ss.png" style="position: absolute; top: 0; left: 0; z-index: 1; width: 100%;"> <img data-src="images/bmc-research-note-ss.png" style="position: absolute; top: 220px; left: 60px; z-index: 2; width: 85%;"></p>
 </div>
 </div></div>
 <aside class="notes">
@@ -2261,7 +2299,7 @@ The boundaries between these categories are intentionally fuzzy. Most establishe
       }</style></aside>
 </section></section>
 <section>
-<section id="wrap-up-your-fair-data-journey" class="title-slide slide level1 section-title center">
+<section id="wrap-up-your-fair-data-journey" class="title-slide slide level1 section-title part center" data-background-color="#00883A">
 <h1>Wrap-Up: Your FAIR Data Journey</h1>
 
 </section>
@@ -2330,7 +2368,7 @@ The boundaries between these categories are intentionally fuzzy. Most establishe
 </div><div class="column" style="width:60%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/optional-follow-up-ss.png"></p>
+<p><img data-src="images/optional-follow-up-ss.png" style="width:90.0%"></p>
 <figcaption><a href="https://lmu-osc.github.io/FAIR-Data-Management/"><strong>lmu-osc.github.io/FAIR-Data-Management/</strong></a></figcaption>
 </figure>
 </div>
@@ -2404,7 +2442,7 @@ April 17, 2023: <a href="https://osf.io/2jbps">osf.io/2jbps</a></p></li>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="images/LMU-OSC_logo.jpg" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>FAIR Research Data Management | LMU Open Science Summer School 2025 | 1 hour 45 minutes</p>
+<p>FAIR Research Data Management | LMU Open Science Summer School 2026 | 1 hour 45 minutes</p>
 </div>
 </div></div>
 
@@ -2582,15 +2620,15 @@ April 17, 2023: <a href="https://osf.io/2jbps">osf.io/2jbps</a></p></li>
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1600,
 
-        height: 700,
+        height: 900,
 
         // Factor of the display size that should remain empty around the content
-        margin: 0.1,
+        margin: 5.0e-2,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -2664,13 +2702,14 @@ April 17, 2023: <a href="https://osf.io/2jbps">osf.io/2jbps</a></p></li>
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
@@ -2685,7 +2724,7 @@ April 17, 2023: <a href="https://osf.io/2jbps">osf.io/2jbps</a></p></li>
         }
           var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
           var mailtoRegex = new RegExp(/^mailto:/);
-            var filterRegex = new RegExp("https:\/\/ree-gupta\.github\.io\/osss-fair-rdm\/");
+            var filterRegex = new RegExp('/' + window.location.host + '/');
           var isInternal = (href) => {
               return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
           }
