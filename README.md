@@ -6,9 +6,9 @@ A hands-on, actionable workshop for researchers on implementing FAIR (Findable, 
 
 This 105-minute interactive workshop helps researchers bridge the gap between knowing they should share data and feeling confident to actually do it. Participants learn practical skills for organizing, documenting, and sharing research data while understanding which aspects of FAIR data management are their responsibility versus what's handled by tools.
 
-**Authors**: Reema Gupta (ORCID: 0000-0003-4509-6969)  
+**Authors**: Reema Gupta (ORCID: 0000-0003-4509-6969), Laura Meier & Sara Lil Middleton  
 **Institution**: LMU Open Science Center  
-**Event**: LMU Open Science Summer School 2025
+**Event**: LMU Open Science Summer School 2026
 
 ## Workshop Goals
 
@@ -25,9 +25,9 @@ By the end of this session, participants will:
 | Time | Duration | Section | Content & Activities | Type |
 |------|----------|---------|---------------------|------|
 | 00:00 | 2 min | **Introduction** | Today's Journey, Workshop Goals | Presentation |
-| 00:03 | 15 min | **Part I: Why This Matters to YOU** | Video discussion, Particify polls (2 polls), FAIR principles intro | Presentation + Polls (Particify - https://partici.fi/17172630) |
+| 00:03 | 15 min | **Part I: Why This Matters to YOU** | Video discussion, Particify polls (2 polls), FAIR principles intro | Presentation + Polls (Particify - https://partici.fi/51717115) |
 | 00:20 | 15 min | **Part II: Making FAIR Tangible** | Data lifecycle, FAIR breakdown, Metadata framework, Siplified Action Plan | Presentation |
-| 00:35 | 33 min | **Part III: Managing Data for Your Future Self and Collaborators** | Files & folders, naming, formats, data dictionary, README, metadata types, Quiz | Presentation + 3 minute stand and stretch break + Quiz (Particify - https://partici.fi/17172630)|
+| 00:35 | 33 min | **Part III: Managing Data for Your Future Self and Collaborators** | Files & folders, naming, formats, data dictionary, README, metadata types, Quiz | Presentation + 3 minute stand and stretch break + Quiz (Particify - https://partici.fi/51717115)|
 | 01:05 | 25 min | **Part IV: Creating Research Data for Unexpected Reuse** | Standards, organizational examples, FAIR Toolkit Activity (5 min) + Worksheet | Presentation + Worksheet Activity (Personal note or shared document) |
 | 01:30 | 12 min | **Part V: Sharing Your Data** | Licensing, repositories, Repository Hunt (3 min), PIDs, DAS - some discussions can be followed up in the DMP session | Presentation + Worksheet Activity (Personal note or shared document) |
 | 01:42 | 3 min | **Wrap-Up** | FAIR checklist, commitment exercise | Presentation + Self-Reflection |
@@ -47,7 +47,7 @@ The workshop covers:
 
 - `slides.qmd` - Main workshop presentation in Quarto format
 - `_quarto.yml` - Quarto configuration file
-- `custom.css` - Custom styling for the slides
+- `assets/` - Slide styling (`lmu-osc.scss`, LMU-OSC brand colors and typography)
 - `images/` - Workshop images and figures
 - `LICENSE.md` - License information
 

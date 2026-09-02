@@ -1,20 +1,24 @@
 ---
 title: "FAIR Research Data Management"
 subtitle: "A Hands-on, Actionable Workshop for Researchers"
-author: "Reema Gupta, Laura Meier & Sara Middleton"
+author: "Reema Gupta, Laura Meier & Sara Lil Middleton"
 format:
   revealjs:
-    theme: default
+    theme: [default, assets/lmu-osc.scss]
+    width: 1600
+    height: 900
+    margin: 0.05
     slide-number: true
     preview-links: auto
-    footer: "FAIR Research Data Management | LMU Open Science Summer School 2025 | 1 hour 45 minutes"
+    footer: "FAIR Research Data Management | LMU Open Science Summer School 2026 | 1 hour 45 minutes"
     transition: slide
     background-transition: fade
     incremental: true
     scrollable: true
     auto-stretch: true
     smaller: false
-    css: custom.css
+    title-slide-attributes:
+      data-background-color: "#00883A"
     logo: images/LMU-OSC_logo.jpg
 ---
 ## Today's Journey {.center}
@@ -31,7 +35,7 @@ _"I feel confident to manage and share my research data"_
 
 
 ::: {.notes}
-Welcome, everyone. So, I hope that Felix has sufficiently inspired you to share your data and implement the FAIR principles. In this session, we will try translating that good intention into actual practice. This might feel daunting, but that's completely understandable.
+Welcome, everyone. So, I hope the data sharing lecture we just had has sufficiently inspired you to share your data and implement the FAIR principles. In this session, we will try translating that good intention into actual practice. This might feel daunting, but that's completely understandable.
 
 In the next 105 minutes, we'll bridge that gap together. You'll leave with concrete decisions made and practical tools you can use starting tomorrow. This workshop isn't about achieving perfection in your research data management practices but identifying where you can improve and take clear, manageable first steps that will transform how you handle data.
 :::
@@ -67,7 +71,7 @@ This is an interactive workshop, so we'll be using Particify throughout. I want 
 :::
 
 
-# Part I: Why This Matters to YOU {.section-title}
+# Part I: Why This Matters to YOU {.section-title .part .center background-color="#00883A"}
 *Building motivation from shared experiences*
 
 
@@ -116,7 +120,7 @@ Pay attention to things that seemed completely reasonable in the moment but crea
 
 :::: {.columns}
 ::: {.column width="50%"}
-![](images/20250916-FAIR-RDM.png){width="80%"}
+![](images/20260908-FAIR-RDM.png){width="80%"}
 :::
 
 ::: {.column width="50%"}
@@ -124,7 +128,7 @@ Pay attention to things that seemed completely reasonable in the moment but crea
 
 **Join the interactive session:**
 
-[partici.fi/17172630](https://partici.fi/17172630)
+[partici.fi/51717115](https://partici.fi/51717115)
 
 <br>
 
@@ -182,7 +186,7 @@ I was hoping that you would identify these patterns like you did, documentation 
 
 ::: {.column width="40%"}
 
-2025: You're here because:
+2026: You're here because:
 
 ::: {.incremental .smaller}
 - Your funder requires it (or will soon)
@@ -254,7 +258,7 @@ That's why it works across every field represented in this room.
 :::
 
 
-# Part II: Making FAIR Tangible {.section-title}
+# Part II: Making FAIR Tangible {.section-title .part .center background-color="#00883A"}
 *From abstract principles to concrete actions*
 
 ## FAIR by Design {.center}
@@ -298,7 +302,7 @@ This systematic thinking through each stage is exactly what a document called "D
 
 ::: {.callout-tip}
 #### Related Session Alert
-**Wednesday 17th September, 13:15 - 14:15: Research Data Management Plans**
+**Wednesday 9th September, 13:15 - 14:15: Research Data Management Plans**
 :::
 
 ::: {.notes}
@@ -380,11 +384,11 @@ Now let's count together how many times the word 'metadata' appears... It's high
 
 <br>
 
-Visit [partici.fi/17172630](https://partici.fi/17172630) to participate
+Visit [partici.fi/51717115](https://partici.fi/51717115) to participate
 :::
 
 ::: {.column width="30%"}
-![](images/20250916-FAIR-RDM.png){width="60%"}
+![](images/20260908-FAIR-RDM.png){width="60%"}
 :::
 ::::
 
@@ -557,7 +561,7 @@ Strip away all complexity, and your job has three parts. First, find and adopt s
 :::
 
 
-# Part III: Managing Data for Your Future Self and Collaborators {.section-title}
+# Part III: Managing Data for Your Future Self and Collaborators {.section-title .part .center background-color="#00883A"}
 **Creating FAIR Research Data**
 
 ## Files and Folders: Everyday Practices {.center}
@@ -575,7 +579,7 @@ Research data management can be chaotic
 :::
 
 ::: {.column width="50%"}
-![](images/experimentales-002_typical-story-line-about-order.png){width="80%"}
+![](images/experimentales-002_typical-story-line-about-order.png){height="560"}
 
 <small>Source: [ExperimenTales by Lyuba Zehl](https://gin.g-node.org/lzehl/ExperimenTales) (CC BY 4.0)</small>
 :::
@@ -618,12 +622,12 @@ You may set it up a folder structure by:
 :::
 
 ::: {.column width="40%"}
-![](images/folder-hierarchy.svg)
+![](images/folder-hierarchy.svg){height="560"}
 :::
 
 ::::
 
-## Example Folder Structure {.center}
+## Example Folder Structure {.center .smaller}
 ```
 .
 ├── 01_data/                # All project data
@@ -728,7 +732,7 @@ Two practical benchmarks to keep in mind: if you can't find a specific file in 3
 
 :::: {.columns}
 ::: {.column width="32%"}
-![](images/not-final-doc-phdcomic.gif){width="80%"}
+![](images/not-final-doc-phdcomic.gif){width="70%"}
 
 <small>Source: [PhD Comics](https://phdcomics.com/) © Piled Higher and Deeper Publishing</small>
 :::
@@ -743,7 +747,7 @@ Two practical benchmarks to keep in mind: if you can't find a specific file in 3
 
 ::: {.callout-tip .fragment}
 ##### Related Session Alert
-**Wednesday 17 September, 14:30-17:30: Version control in RStudio with Git**
+**Wednesday 9 September, 14:30-17:30: Version control in RStudio with Git**
 :::
 
 ::: {.notes}
@@ -790,7 +794,7 @@ Binary formats like SPSS files are efficient during active research but may beco
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](images/norm_normal_file_format_2x.png){width="70%"}
+![](images/norm_normal_file_format_2x.png){width="55%"}
 
 <small>Source: [xkcd.com/2116](https://xkcd.com/2116/) (CC BY-NC 2.5)</small>
 :::
@@ -1127,7 +1131,7 @@ To think about this, you would go to your field's main repository or search engi
 
 :::: {.columns}
 ::: {.column width="50%"}
-![](images/20250916-FAIR-RDM.png){width="80%"}
+![](images/20260908-FAIR-RDM.png){width="80%"}
 :::
 
 ::: {.column width="50%" .smaller .nonincremental}
@@ -1135,7 +1139,7 @@ To think about this, you would go to your field's main repository or search engi
 
 **Join the interactive session:**
 
-[partici.fi/17172630](https://partici.fi/17172630)
+[partici.fi/51717115](https://partici.fi/51717115)
 
 - Each question has only **one correct** answer
 - Feel free to use an **alias name, your name or abstain**
@@ -1145,7 +1149,7 @@ To think about this, you would go to your field's main repository or search engi
 
 
 
-# Part IV: Creating Research Data for Unexpected Reuse {.section-title}
+# Part IV: Creating Research Data for Unexpected Reuse {.section-title .part .center background-color="#00883A"}
 **Making Data Interoperable & Reusable**
 
 
@@ -1505,7 +1509,7 @@ After 10 minutes, we'll have people share what they discovered using the templat
 
 :::: {.columns}
 ::: {.column width="60%"}
-![Carroll et al. (2020). The CARE Principles for Indigenous Data Governance. *Data Science Journal*. [DOI: 10.5334/dsj-2020-043](https://datascience.codata.org/articles/10.5334/dsj-2020-043)](images/care-principles.png){width="60%"}
+![Carroll et al. (2020). The CARE Principles for Indigenous Data Governance. *Data Science Journal*. [DOI: 10.5334/dsj-2020-043](https://datascience.codata.org/articles/10.5334/dsj-2020-043)](images/care-principles.png){width="42%"}
 :::
 
 ::: {.column width="40%" }
@@ -1527,7 +1531,7 @@ For most of you, this might mean ensuring your consent processes include discuss
 :::
 
 
-# Part V: Sharing Your Data with the World {.section-title}
+# Part V: Sharing Your Data with the World {.section-title .part .center background-color="#00883A"}
 
 ::: {.notes}
 So, now your data is well organized, well documented, and follows community standards. The next step is to make sure it can actually be found and accessed by others. The very first step in making your data FAIR is ensuring it's findable. If no one can discover your dataset, all the effort you've put into organizing and documenting it is wasted.
@@ -1800,7 +1804,7 @@ Avoid vague statements like "data available upon request"—these create barrier
 ::: {.column width="40%"}
 ::: {.overlay-container style="position: relative; width: 100%; height: 500px;"}
 ![](images/nature-scientific-data-ss.png){style="position: absolute; top: 0; left: 0; z-index: 1; width: 100%;"}
-![](images/bmc-research-note-ss.png){style="position: absolute; top: 200px; left: 150px; z-index: 2; width: 100%;"}
+![](images/bmc-research-note-ss.png){style="position: absolute; top: 220px; left: 60px; z-index: 2; width: 85%;"}
 :::
 :::
 :::::
@@ -1810,7 +1814,7 @@ For datasets that are particularly valuable or complex, consider publishing a da
 :::
 
 
-# Wrap-Up: Your FAIR Data Journey {.section-title}
+# Wrap-Up: Your FAIR Data Journey {.section-title .part .center background-color="#00883A"}
 
 ## First Simple FAIR Checklist {.center .nonincremental .smaller}
 
@@ -1867,7 +1871,7 @@ Practice applying FAIR principles by evaluating real published datasets. You'll 
 :::
 
 ::: {.column width="60%"}
-![[**lmu-osc.github.io/FAIR-Data-Management/**](https://lmu-osc.github.io/FAIR-Data-Management/)](images/optional-follow-up-ss.png)
+![[**lmu-osc.github.io/FAIR-Data-Management/**](https://lmu-osc.github.io/FAIR-Data-Management/)](images/optional-follow-up-ss.png){width="90%"}
 :::
 ::::
 
