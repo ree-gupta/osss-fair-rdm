@@ -92,6 +92,13 @@ $presentation-heading-font-weight: 700;
   font-size: 1.5em;
 }
 
+/* Figure captions carry attributions: keep them small and muted */
+.reveal .slide figure figcaption {
+  font-size: 0.5em;
+  color: $lmu-darkgrey;
+  text-align: center;
+}
+
 /* Tables */
 .reveal table {
   font-size: 0.72em;

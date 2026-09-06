@@ -261,6 +261,22 @@ That's why it works across every field represented in this room.
 # Part II: Making FAIR Tangible {.section-title .part .center background-color="#00883A"}
 *From abstract principles to concrete actions*
 
+## Managed Data, Open Data, FAIR Data {.center}
+
+:::: {.columns}
+::: {.column width="55%"}
+![Ikeuchi, U. (2017). Open research data and research data management. *figshare*. [DOI: 10.6084/m9.figshare.3979746](https://doi.org/10.6084/m9.figshare.3979746) (CC BY 4.0)](images/open-data-rdm.png){width="90%" fig-alt="Pyramid of data openness: active data is managed and curated into closed, open with conditions, and fully open tiers, then preserved and published"}
+:::
+
+::: {.column width="45%"}
+![[Ghent University](https://www.ugent.be/en/research/openscience/datamanagement/after-research/fair-data.htm)](images/ugent-fair-open.png){width="85%" fig-alt="Venn diagram: FAIR data sits inside managed data, and open data partially overlaps both"}
+:::
+::::
+
+::: {.notes}
+These are related but distinct concepts, and this is the most common confusion I want to clear up before we make FAIR tangible. All your data needs to be managed, stored, and backed up, regardless of whether it will ever be shared. That is the foundation, the base of the pyramid. Some of that data can be curated and published, and as the pyramid shows, published does not have to mean fully open: data can be open with conditions like registration or an embargo, or stay closed for privacy reasons. The circles on the right make the second point: FAIR data lives inside managed data, and it only partly overlaps with open data. Many of you work with sensitive participant data that cannot be fully open, but it can still be well-managed and FAIR: findable through its metadata and accessible under clear conditions, for example through a trusted research environment, which we will see later. So when you hear FAIR today, do not hear "make everything public". Good data management is the foundation everything else builds on.
+:::
+
 ## FAIR by Design {.center}
 :::: {.columns}
 

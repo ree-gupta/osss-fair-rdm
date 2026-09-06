@@ -26,7 +26,7 @@ By the end of this session, participants will:
 |------|----------|---------|---------------------|------|
 | 00:00 | 2 min | **Introduction** | Today's Journey, Workshop Goals | Presentation |
 | 00:03 | 15 min | **Part I: Why This Matters to YOU** | Video discussion, Particify polls (2 polls), FAIR principles intro | Presentation + Polls (Particify - https://partici.fi/51717115) |
-| 00:20 | 15 min | **Part II: Making FAIR Tangible** | Data lifecycle, FAIR breakdown, Metadata framework, Siplified Action Plan | Presentation |
+| 00:20 | 15 min | **Part II: Making FAIR Tangible** | Managed/Open/FAIR distinction, Data lifecycle, FAIR breakdown, Metadata framework, Simplified Action Plan | Presentation |
 | 00:35 | 33 min | **Part III: Managing Data for Your Future Self and Collaborators** | Files & folders, naming, formats, data dictionary, README, metadata types, Quiz | Presentation + 3 minute stand and stretch break + Quiz (Particify - https://partici.fi/51717115)|
 | 01:05 | 25 min | **Part IV: Creating Research Data for Unexpected Reuse** | Standards, organizational examples, FAIR Toolkit Activity (5 min) + Worksheet | Presentation + Worksheet Activity (Personal note or shared document) |
 | 01:30 | 12 min | **Part V: Sharing Your Data** | Licensing, repositories, Repository Hunt (3 min), PIDs, DAS - some discussions can be followed up in the DMP session | Presentation + Worksheet Activity (Personal note or shared document) |
