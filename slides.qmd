@@ -287,7 +287,7 @@ Every disaster we saw had a prevention moment much earlier. You already think th
 <small>Source: Research data life cycle by Jürgen Rohrwild</small>
 
 ::: {.notes}
-This is where FAIR research data management by design pays off. Every stage you see here represents a choice point where you can either prevent problems or create them. The researchers in that video didn't fail because they were careless—they failed because they didn't have systematic prevention built into their workflow.
+This is where FAIR research data management by design pays off. Every stage you see here represents a choice point where you can either prevent problems or create them. The researchers in that video didn't fail because they were careless. They failed because they didn't have systematic prevention built into their workflow.
 
 Look at the planning stage: this is where you make foundational decisions, how will you name files consistently? Where will you store data? What backup systems will you use? During collection, you're documenting what each measurement means as you go, not trying to decipher cryptic abbreviations months later. In analysis, you're keeping track of every step and decision, not hoping you'll remember your process when someone asks about it.
 
@@ -306,11 +306,11 @@ This systematic thinking through each stage is exactly what a document called "D
 :::
 
 ::: {.notes}
-My colleague Laura Meier will run a dedicated DMP workshop on Wednesday that goes deep into writing comprehensive data management plans using modern tools that actually make the process manageable—covering collaborators, funder requirements, and institutional compliance.
+My colleague Laura Meier will run a dedicated DMP workshop on Wednesday that goes deep into writing comprehensive data management plans using modern tools that actually make the process manageable, covering collaborators, funder requirements, and institutional compliance.
 
-Today's focus is different: we're understanding FAIR principles and making concrete decisions using community tools. By the end of today, you'll have chosen a repository for your data type, identified relevant standards for your field, and selected an appropriate license—all using decision tools and community resources we'll explore together.
+Today's focus is different: we're understanding FAIR principles and making concrete decisions using community tools. By the end of today, you'll have chosen a repository for your data type, identified relevant standards for your field, and selected an appropriate license, all using decision tools and community resources we'll explore together.
 
-Wednesday's workshop will then help you consolidate these decisions into a polished, funder-ready DMP. Think of today as your literature review phase—scouting methods and building blocks. Wednesday is writing your actual project proposal, but for data management.
+Wednesday's workshop will then help you consolidate these decisions into a polished, funder-ready DMP. Think of today as your literature review phase: scouting methods and building blocks. Wednesday is writing your actual project proposal, but for data management.
 :::
 
 
@@ -410,9 +410,9 @@ Such diverse responses! 'context,' 'documentation,' 'data about data,' 'labels.'
 **Speaker Notes:**
 So many varied answers in that poll, right? 'Context,' 'documentation,' 'data about data,' 'labels.' This variety is exactly why metadata feels like a moving target with different significance in different contexts. Even when you're aware of FAIR principles, metadata can feel overwhelming and abstract.
 
-This figure tries to categorize metadata in a way that makes most sense to you as researchers. At the top, 'Proper Metadata' - that's the catalog information that repositories need. It's probably what librarians and data engineers mean when they talk about metadata. On the left—'Soft Metadata'—the human context about why your research matters. In the middle—'Hard Metadata'—the technical specifications someone needs to replicate your work. On the right—'Data Complement'—the structural description of your recorded data itself.
+This figure tries to categorize metadata in a way that makes most sense to you as researchers. At the top, 'Proper Metadata' - that's the catalog information that repositories need. It's probably what librarians and data engineers mean when they talk about metadata. On the left is 'Soft Metadata', the human context about why your research matters. In the middle is 'Hard Metadata', the technical specifications someone needs to replicate your work. On the right is 'Data Complement', the structural description of your recorded data itself.
 
-And you don't need to tackle all of this at once. The lifecycle approach we just saw tells you when to focus on what. With the FAIR aware research data cycle, you would build up metadata systematically as you move through your research process—soft metadata during planning, hard metadata during collection and analysis, data complement as you organize files, and proper metadata when you're ready to share.
+And you don't need to tackle all of this at once. The lifecycle approach we just saw tells you when to focus on what. With the FAIR aware research data cycle, you would build up metadata systematically as you move through your research process: soft metadata during planning, hard metadata during collection and analysis, data complement as you organize files, and proper metadata when you're ready to share.
 
 These different levels work differently to support the FAIR principles. We'll keep referring back to this framework throughout the workshop so you know exactly what to focus on at each stage, making metadata feel concrete and manageable instead of overwhelming.
 :::
@@ -489,7 +489,7 @@ Source: Adapted from So, Why Go FAIR? April 17, 2023 [osf.io/2jbps](https://osf.
 The parts in red are the Technical infrastructure. This is the deep-level IT stuff, like server protocols.
 And the parts in blue are Social decisions. These are the agreements and choices that you, your lab, or your entire research community make.
 Here’s the key takeaway I want you to remember: You do not have to build this entire system yourself.
-Let's start with what you can safely ignore. The red parts - the technical infrastructure - that’s the job of your repository. When you upload your data to a platform like Zenodo, Figshare, or a specialized institutional repository, they handle the standardized protocols. So, you can cross that off your worry list.
+Let's start with what you can safely ignore. The red parts - the technical infrastructure - that’s the job of your repository. When you upload your data to a platform like Zenodo or a specialized institutional repository, they handle the standardized protocols. So, you can cross that off your worry list.
 Now, let's talk about the orange bits. This is where I see most researchers get stuck. They see 'vocabularies', 'community standards', 'formal language' and think, 'Do I have to invent one of these?'
 The answer is an emphatic NO.
 Your job is not to create these standards. Your job is to choose one.
@@ -503,11 +503,11 @@ ALTERNATIVE
 
 First, look at everything highlighted in light red. This is the Technical Infrastructure.
 
-Think of things like globally unique and persistent identifiers, standardized communication protocols, and authentication. This is the deep-level IT stuff—the plumbing of the internet that makes data sharing possible.
+Think of things like globally unique and persistent identifiers, standardized communication protocols, and authentication. This is the deep-level IT stuff, the plumbing of the internet that makes data sharing possible.
 
 This is not your job.
 
-When you choose a good data repository—like Zenodo, Figshare, Dryad, or your own institutional repository—they handle all of this for you. They create the persistent identifiers, they manage the servers, and they use the standard protocols. So, you can mentally check off all the red parts. That's the repository's responsibility.
+When you choose a good data repository, like Zenodo, Dryad, or your own institutional repository, they handle all of this for you. They create the persistent identifiers, they manage the servers, and they use the standard protocols. So, you can mentally check off all the red parts. That's the repository's responsibility.
 
 Next, let's look at the orange parts. This is where I see most researchers get stuck. They see phrases like formal, accessible, shared language and vocabularies that follow FAIR principles, and they panic, thinking, 'Do I have to invent a new language for my data?'
 
@@ -521,7 +521,7 @@ So, the big message for everything you see in orange is: Don’t invent, adopt. 
 
 So, if the repository handles the red stuff, and you just adopt the orange stuff, where should you focus your energy?
 
-You should focus your energy right here, on the blue parts—the Social Decisions—and on using those orange standards to create rich, machine-readable metadata.
+You should focus your energy right here, on the blue parts, the Social Decisions, and on using those orange standards to create rich, machine-readable metadata.
 
 This is where you, the subject matter expert, are irreplaceable. This is your core contribution to making your data FAIR.
 
@@ -720,9 +720,9 @@ There are no right answers here, only trade-offs.
 ::: {.notes}
 These are practical best practices that solve real problems researchers encounter. Let's walk through the key ones on the slide.
 
-Avoiding spaces and special characters prevents headaches when files need to work across different systems—what looks fine on your Mac might break on a colleague's Windows machine or a computing cluster. The 32-character limit keeps filenames readable and prevents truncation issues. Keeping folder structures reasonably flat makes navigation easier, especially as projects grow. Using standardized formats like YYYY-MM-DD for dates ensures files sort chronologically, and zero-padding numbers does the same for sequences.
+Avoiding spaces and special characters prevents headaches when files need to work across different systems: what looks fine on your Mac might break on a colleague's Windows machine or a computing cluster. The 32-character limit keeps filenames readable and prevents truncation issues. Keeping folder structures reasonably flat makes navigation easier, especially as projects grow. Using standardized formats like YYYY-MM-DD for dates ensures files sort chronologically, and zero-padding numbers does the same for sequences.
 
-The bigger picture here is consistency. When you establish predictable patterns, you're not just helping future you find files—you're making it possible for software to automatically organize and process your work. Think of it like creating a filing system that both humans and computers can follow.
+The bigger picture here is consistency. When you establish predictable patterns, you're not just helping future you find files. You're also making it possible for software to automatically organize and process your work. Think of it like creating a filing system that both humans and computers can follow.
 
 Two practical benchmarks to keep in mind: if you can't find a specific file in 30 seconds, your naming system needs work. And if a computer couldn't follow your organizational pattern to automatically work through your files, you're creating unnecessary future work for yourself and your team.
 :::
@@ -752,9 +752,9 @@ Two practical benchmarks to keep in mind: if you can't find a specific file in 3
 
 ::: {.notes}
 **Speaker Notes:**
-Even with consistent naming, projects naturally accumulate versions—and that's where things can get messy fast. Without a clear versioning strategy, you end up with folders full of files that track every iteration, making it hard to know which version is current or how you got there.
+Even with consistent naming, projects naturally accumulate versions, and that's where things can get messy fast. Without a clear versioning strategy, you end up with folders full of files that track every iteration, making it hard to know which version is current or how you got there.
 
-The simplest approach is systematic version numbers: `data_v1.csv`, `data_v2.csv`, and so on. Pair this with a changelog file that explains what changed in each version—it takes two minutes to write but saves hours of detective work later when you're trying to remember why you made certain changes.
+The simplest approach is systematic version numbers: `data_v1.csv`, `data_v2.csv`, and so on. Pair this with a changelog file that explains what changed in each version. It takes two minutes to write but saves hours of detective work later when you're trying to remember why you made certain changes.
 
 To make this easier, version control tools like Git can automate much of this tracking. Git handles the technical details of storing changes and lets you easily compare versions or roll back when needed. There's actually a dedicated Git session later in this workshop where you'll see how it works in practice for research workflows.
 :::
@@ -1065,7 +1065,7 @@ The human context that bridges your research logic with others' understanding
 :::
 
 ::: {.notes}
-So, READMEs are a place to capture the "soft" metadata from our framework earlier. TThey are your opportunity to speak directly to future users of your data. While your hard metadata captures the technical details for reproduction, your README captures the human story—the research context, organizational logic, and practical guidance that transforms a collection of files into a usable scientific resource.
+So, READMEs are a place to capture the "soft" metadata from our framework earlier. They are your opportunity to speak directly to future users of your data. While your hard metadata captures the technical details for reproduction, your README captures the human story: the research context, organizational logic, and practical guidance that transforms a collection of files into a usable scientific resource.
 
 Ask yourself: if a researcher in your field stumbled across your dataset six months from now, would they understand not just what you did, but why you did it that way? Your README is the bridge between your internal project logic and external understanding.
 :::
@@ -1120,7 +1120,7 @@ These questions shift the focus from filling out forms to helping users. Can res
 
 Repositories guide you through this process with forms that prompt you for the right information. But the strategic thinking, choosing keywords that your community actually uses, writing titles that clearly communicate your contribution, that's where your expertise matters most.
 
-For instance, a title like "Study 1 Data" tells potential users nothing about who, what, when, where, why, or how of the dataset. Keywords that match how your community actually talks about this research area—that's what connects your work to the people who need it.
+For instance, a title like "Study 1 Data" tells potential users nothing about who, what, when, where, why, or how of the dataset. Keywords that match how your community actually talks about this research area: that's what connects your work to the people who need it.
 
 Think about your own search behavior. When you're looking for existing datasets, what information helps you quickly decide if something is relevant? You want to know who created it, what's in it, when it was made, where it came from, why it exists, and how to use it. Apply that same logic to how you describe your own work.
 
@@ -1521,11 +1521,11 @@ After 10 minutes, we'll have people share what they discovered using the templat
 
 
 ::: {.notes}
-Now that we've talked about community standards and adopting existing practices, it's important to address another framework that's increasingly essential in research data management: the CARE principles. While FAIR principles focus on making data technically accessible and reusable, CARE principles—Collective Benefit, Authority to Control, Responsibility, and Ethics—ensure that data use serves the communities it represents, especially Indigenous communities and other marginalized groups.
+Now that we've talked about community standards and adopting existing practices, it's important to address another framework that's increasingly essential in research data management: the CARE principles. While FAIR principles focus on making data technically accessible and reusable, CARE principles (Collective Benefit, Authority to Control, Responsibility, and Ethics) ensure that data use serves the communities it represents, especially Indigenous communities and other marginalized groups.
 
-CARE principles are particularly crucial when working with Indigenous data, cultural heritage information, or any data that represents community knowledge. They emphasize that communities should have authority over how their data is collected, used, and shared. This isn't just about consent—it's about ongoing relationships, reciprocity, and ensuring that research benefits the communities involved, not just the researchers.
+CARE principles are particularly crucial when working with Indigenous data, cultural heritage information, or any data that represents community knowledge. They emphasize that communities should have authority over how their data is collected, used, and shared. This isn't just about consent. It's about ongoing relationships, reciprocity, and ensuring that research benefits the communities involved, not just the researchers.
 
-Think of CARE as the ethical complement to FAIR. Where FAIR asks "Can people access and use this data?", CARE asks "Should they?" and "How do we ensure the community benefits?" This is especially relevant as we move toward data sharing—it's not enough to make data technically accessible if we haven't considered the ethical implications and community impact.
+Think of CARE as the ethical complement to FAIR. Where FAIR asks "Can people access and use this data?", CARE asks "Should they?" and "How do we ensure the community benefits?" This is especially relevant as we move toward data sharing: it's not enough to make data technically accessible if we haven't considered the ethical implications and community impact.
 
 For most of you, this might mean ensuring your consent processes include discussions about long-term data use, checking whether your research benefits the communities you study, and being mindful of power dynamics in data ownership. Even if you're not working directly with Indigenous communities, CARE principles offer valuable guidance for responsible, community-centered research practices.
 :::
@@ -1556,7 +1556,7 @@ Without a license → Others avoid your data (even with good intentions)
 
 ::: {.notes}
 You've invested time in organizing your data well, creating metadata, and making it research-ready. The last crucial step is defining how others can use this valuable resource. If no license is provided, other researchers can't tell what they're allowed to
-do with your data and will often avoid using it entirely—defeating all your careful preparation.
+do with your data and will often avoid using it entirely, defeating all your careful preparation.
 :::
 
 <!-- Skipping copyright and licensing details -->
@@ -1586,7 +1586,7 @@ Rule of thumb: Choose the LEAST restrictive license
 ::::
 
 ::: {.notes}
-There are several licenses out there, [Creative Commons](https://creativecommons.org), MIT, Apache, Open Data Commons—and ultimately it's your responsibility to pick one. If you don't want to read through all the options, Creative Commons licenses are usually a safe choice for research data. Remember this rule of thumb: go with the least restrictive license to maximize your data's reuse potential.
+There are several licenses out there, [Creative Commons](https://creativecommons.org), MIT, Apache, Open Data Commons, and ultimately it's your responsibility to pick one. If you don't want to read through all the options, Creative Commons licenses are usually a safe choice for research data. Remember this rule of thumb: go with the least restrictive license to maximize your data's reuse potential.
 :::
 
 ## Two Ideal Choices {.center}
@@ -1601,7 +1601,7 @@ CC BY - simply "cite me if you use my data" - the norm in science
 :::
 
 ::: {.notes}
-The recommendations are straightforward: use CC0 if your data isn't protected by copyright, which is often the case. Use CC-BY when copyright exists. Here's the key insight: CC-BY merely requires attribution—it's just formalizing good scientific practice. You're setting conditions that are self-evident to scientists, though it does create extra effort for reusers figuring out how to cite correctly.
+The recommendations are straightforward: use CC0 if your data isn't protected by copyright, which is often the case. Use CC-BY when copyright exists. Here's the key insight: CC-BY merely requires attribution. It's just formalizing good scientific practice. You're setting conditions that are self-evident to scientists, though it does create extra effort for reusers figuring out how to cite correctly.
 :::
 
 ## Why Avoid More Restrictive Licenses? {.center}
@@ -1635,21 +1635,21 @@ Not all repositories are created equal
 :::
 
 ::: {.notes}
-Your data is beautifully organized, you've chosen an appropriate license, and you're ready to share it with the world. But now comes a crucial decision: where should it live? This isn't just about finding any place to upload files—it's about choosing the
+Your data is beautifully organized, you've chosen an appropriate license, and you're ready to share it with the world. But now comes a crucial decision: where should it live? This isn't just about finding any place to upload files. It's about choosing the
 right home that matches your data's needs and your research goals.
 :::
 
 ## Repository Choice: Match Your Needs {.center}
 
 ::: {.incremental}
-- Field-specific visibility? → Disciplinary repositories (preferred option)
-- Sensitive data + compliance? → Institutional repositories (Open Data LMU - personal consultation advantage)
-- Active collaboration? → Platforms with version control ([OSF](https://osf.io), [GitHub](https://github.com))
-- Broad discoverability? → General repositories ([Zenodo](https://zenodo.org), [Figshare](https://figshare.com))
+- Field-specific visibility? → Disciplinary repositories (preferred option: [PsychArchives](https://www.psycharchives.org), [GIN](https://gin.g-node.org))
+- Sensitive data + compliance? → Institutional repositories (Open Data LMU - personal consultation advantage) or trusted research environments (TREs)
+- Active collaboration? → Platforms with version control ([GitLab (LRZ)](https://gitlab.lrz.de), [GitHub](https://github.com))
+- Broad discoverability? → General repositories ([Zenodo](https://zenodo.org))
 :::
 
 ::: {.notes}
-Your repository choice should be strategic. The preferred option is disciplinary repositories where your research community will find you. If you're dealing with sensitive data and need institutional support, your university repository might be best - consider seeking personal consultation as early as possible. If you're actively collaborating and need version control, platforms like OSF or GitHub work well. For maximum discoverability across all fields, general repositories like Zenodo or Figshare are great. Let me show you re3data.org, where you can filter repositories by your subject area to find the right fit.
+Your repository choice should be strategic. The preferred option is disciplinary repositories where your research community will find you, for example PsychArchives for psychology or GIN for neuroscience, which is run by the German Neuroinformatics Node here at LMU. If you're dealing with sensitive data and need institutional support, your university repository might be best - consider seeking personal consultation as early as possible. For data too sensitive to deposit anywhere, trusted research environments are the emerging answer: the data never leaves a secure environment, and approved researchers come to the data instead of downloading it. If you're actively collaborating and need version control, platforms like GitLab or GitHub work well. As LMU researchers you already have free access to the GitLab instance run by the LRZ, which keeps unpublished work on Bavarian infrastructure. For maximum discoverability across all fields, a general repository like Zenodo is a great fallback. Let me show you re3data.org, where you can filter repositories by your subject area to find the right fit.
 :::
 
 ## What Makes a Good Repository? {.center}
@@ -1669,7 +1669,7 @@ Your repository choice should be strategic. The preferred option is disciplinary
 
 
 ::: {.notes}
-Not all repositories are equally reliable. Look for key features: Do they assign DOIs? Do they have clear policies about long-term preservation? Do they support good metadata that helps people find your work? Community trust matters—CoreTrustSeal certification is a good indicator.
+Not all repositories are equally reliable. Look for key features: Do they assign DOIs? Do they have clear policies about long-term preservation? Do they support good metadata that helps people find your work? Community trust matters: CoreTrustSeal certification is a good indicator.
 
 Another crucial factor is the physical location where your data is stored. For European researchers, GDPR compliance is mandatory, repositories storing data on EU servers provide legal certainty. Repositories outside the EU may require additional data processing agreements or limit what data you can share.
 
@@ -1684,7 +1684,7 @@ When you're unsure, Zenodo is a solid default choice backed by CERN with strong 
 1. Go to: [re3data.org](https://re3data.org)
 2. Type your research area in the search box
 3. Browse top results, pay attention to "Country", "Subjects"
-4. Make a search for "[Zenodo](https://zenodo.org)", "[OSF](https://osf.io)", or "[Figshare](https://figshare.com)" if nothing field-specific appears
+4. Make a search for "[Zenodo](https://zenodo.org)" if nothing field-specific appears
 
 ::: {.notes}
 Let's spend 5 minutes finding your repository options. Go to re3data.org and filter by your subject area first. Look for the key features we just discussed: data upload allowed, DOI assignment, and ideally some certification.
@@ -1720,7 +1720,7 @@ PIDs = Permanent addresses that never break
 :::
 
 ::: {.notes}
-You've organized your data, documented it well, chosen a license, and picked a repository. But here's the final piece: how do you make sure people can actually find your work and that you get proper credit? This is where Persistent Identifiers come in—they're permanent digital addresses that never break, solving the link broken, 404 or page moved problem we've all experienced.
+You've organized your data, documented it well, chosen a license, and picked a repository. But here's the final piece: how do you make sure people can actually find your work and that you get proper credit? This is where Persistent Identifiers come in: they're permanent digital addresses that never break, solving the link broken, 404 or page moved problem we've all experienced.
 :::
 
 ## The Four PIDs You Need to Know {.center .smaller}
@@ -1737,8 +1737,8 @@ Start simple: DOI + ORCID covers most needs
 :::
 
 ::: {.notes}
-Four PIDs cover your research identity infrastructure. DOI identifies what you created—this answers the metadata question "What do the data files contain?" ORCID answers "Who created the dataset?" and follows you across institutions. RRID answers "How was
-the dataset generated?" by identifying specific materials. ROR identifies where the work happened. You don't need all four immediately—DOI for your data and ORCID for yourself covers most of what you need. This connects back to our proper metadata discussion. PIDs essentially formalize the key metadata questions in a standardized, machine-readable way. Instead of just writing "John Smith created this," you use an ORCID that uniquely identifies John Smith forever. Instead of a description that might be ambiguous, you have a DOI that points to the exact dataset. This is how we move from human-readable to machine-actionable metadata.
+Four PIDs cover your research identity infrastructure. DOI identifies what you created. This answers the metadata question "What do the data files contain?" ORCID answers "Who created the dataset?" and follows you across institutions. RRID answers "How was
+the dataset generated?" by identifying specific materials. ROR identifies where the work happened. You don't need all four immediately: DOI for your data and ORCID for yourself covers most of what you need. This connects back to our proper metadata discussion. PIDs essentially formalize the key metadata questions in a standardized, machine-readable way. Instead of just writing "John Smith created this," you use an ORCID that uniquely identifies John Smith forever. Instead of a description that might be ambiguous, you have a DOI that points to the exact dataset. This is how we move from human-readable to machine-actionable metadata.
 :::
 
 ## Data Availability Statement (DAS): Connecting All the Pieces {.center}
@@ -1772,7 +1772,7 @@ Your data is organized, licensed, living in a repository with a DOI, and you hav
 #### Effective Statements
 - _"Data: https://doi.org/10.5281/zenodo.1234567 (CC0)"_
 - _"Code: https://github.com/user/project (MIT)"_
-- _"Materials: https://osf.io/xxxxx (CC-BY)"_
+- _"Materials: https://doi.org/10.xxxx/xxxxx (CC-BY)"_
 :::
 ::::
 ::: {.fragment}
@@ -1780,7 +1780,7 @@ Your data is organized, licensed, living in a repository with a DOI, and you hav
 :::
 
 ::: {.notes}
-Avoid vague statements like "data available upon request"—these create barriers to access and reuse. Instead, provide direct links to your datasets, code repositories, and materials with their DOIs and licenses. This makes it easy for readers to find and use your resources immediately.
+Avoid vague statements like "data available upon request". These create barriers to access and reuse. Instead, provide direct links to your datasets, code repositories, and materials with their DOIs and licenses. This makes it easy for readers to find and use your resources immediately.
 :::
 
 ## Beyond DAS: Dataset Publications {.center .smaller}
